@@ -1,0 +1,138 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="720" viewBox="0 0 1200 720" role="img" aria-labelledby="title desc">
+  <title id="title">Circuit 8 - Common-Cathode RGB Color Mixer</title>
+  <desc id="desc">Three current-limited color channels connect to a common-cathode RGB LED on a breadboard.</desc>
+  <rect width="1200" height="720" fill="#f7fbfd"/>
+  <style>
+    .title { font: 700 30px Arial, sans-serif; fill: #17324d; }
+    .h2 { font: 700 21px Arial, sans-serif; fill: #17324d; }
+    .label { font: 600 17px Arial, sans-serif; fill: #17324d; }
+    .small { font: 15px Arial, sans-serif; fill: #526d82; }
+    .tiny { font: 12px Arial, sans-serif; fill: #526d82; }
+    .wire { fill: none; stroke-width: 7; stroke-linecap: round; stroke-linejoin: round; }
+    .thin { fill: none; stroke: #17324d; stroke-width: 3; }
+    .panel { fill: #ffffff; stroke: #a8c0cc; stroke-width: 3; }
+  </style>
+  <text x="48" y="48" class="title">Circuit 8 - Common-Cathode RGB Color Mixer</text>
+
+  <rect x="42" y="170" width="175" height="310" rx="20" fill="#dff0f5" stroke="#287b91" stroke-width="4"/>
+  <text x="129" y="215" class="h2" text-anchor="middle">5 V SOURCE</text>
+  <circle cx="187" cy="275" r="10" fill="#e53935"/>
+  <text x="77" y="282" class="label" text-anchor="start">5V</text>
+  <circle cx="187" cy="465" r="10" fill="#263238"/>
+  <text x="77" y="472" class="label" text-anchor="start">GND</text>
+<rect x="260" y="115" width="890" height="500" rx="24" fill="#e9f5f8" stroke="#287b91" stroke-width="4"/>
+<line x1="298" y1="173" x2="1112" y2="173" stroke="#e53935" stroke-width="4"/>
+<line x1="298" y1="206" x2="1112" y2="206" stroke="#1d70b8" stroke-width="4"/>
+<line x1="298" y1="524" x2="1112" y2="524" stroke="#e53935" stroke-width="4"/>
+<line x1="298" y1="557" x2="1112" y2="557" stroke="#1d70b8" stroke-width="4"/>
+<rect x="298" y="347.0" width="814" height="36" fill="#d9e8ed"/>
+<circle cx="355.0" cy="189.0" r="5" fill="#fff" stroke="#78909c" stroke-width="2"/>
+<circle cx="355.0" cy="300.0" r="5" fill="#fff" stroke="#78909c" stroke-width="2"/>
+<circle cx="355.0" cy="335.0" r="5" fill="#fff" stroke="#78909c" stroke-width="2"/>
+<circle cx="355.0" cy="395.0" r="5" fill="#fff" stroke="#78909c" stroke-width="2"/>
+<circle cx="355.0" cy="430.0" r="5" fill="#fff" stroke="#78909c" stroke-width="2"/>
+<circle cx="355.0" cy="541.0" r="5" fill="#fff" stroke="#78909c" stroke-width="2"/>
+<text x="355.0" y="371.0" class="tiny" text-anchor="middle">1</text>
+<circle cx="418.6" cy="189.0" r="5" fill="#fff" stroke="#78909c" stroke-width="2"/>
+<circle cx="418.6" cy="300.0" r="5" fill="#fff" stroke="#78909c" stroke-width="2"/>
+<circle cx="418.6" cy="335.0" r="5" fill="#fff" stroke="#78909c" stroke-width="2"/>
+<circle cx="418.6" cy="395.0" r="5" fill="#fff" stroke="#78909c" stroke-width="2"/>
+<circle cx="418.6" cy="430.0" r="5" fill="#fff" stroke="#78909c" stroke-width="2"/>
+<circle cx="418.6" cy="541.0" r="5" fill="#fff" stroke="#78909c" stroke-width="2"/>
+<text x="418.6363636363636" y="371.0" class="tiny" text-anchor="middle">2</text>
+<circle cx="482.3" cy="189.0" r="5" fill="#fff" stroke="#78909c" stroke-width="2"/>
+<circle cx="482.3" cy="300.0" r="5" fill="#fff" stroke="#78909c" stroke-width="2"/>
+<circle cx="482.3" cy="335.0" r="5" fill="#fff" stroke="#78909c" stroke-width="2"/>
+<circle cx="482.3" cy="395.0" r="5" fill="#fff" stroke="#78909c" stroke-width="2"/>
+<circle cx="482.3" cy="430.0" r="5" fill="#fff" stroke="#78909c" stroke-width="2"/>
+<circle cx="482.3" cy="541.0" r="5" fill="#fff" stroke="#78909c" stroke-width="2"/>
+<text x="482.27272727272725" y="371.0" class="tiny" text-anchor="middle">3</text>
+<circle cx="545.9" cy="189.0" r="5" fill="#fff" stroke="#78909c" stroke-width="2"/>
+<circle cx="545.9" cy="300.0" r="5" fill="#fff" stroke="#78909c" stroke-width="2"/>
+<circle cx="545.9" cy="335.0" r="5" fill="#fff" stroke="#78909c" stroke-width="2"/>
+<circle cx="545.9" cy="395.0" r="5" fill="#fff" stroke="#78909c" stroke-width="2"/>
+<circle cx="545.9" cy="430.0" r="5" fill="#fff" stroke="#78909c" stroke-width="2"/>
+<circle cx="545.9" cy="541.0" r="5" fill="#fff" stroke="#78909c" stroke-width="2"/>
+<text x="545.9090909090909" y="371.0" class="tiny" text-anchor="middle">4</text>
+<circle cx="609.5" cy="189.0" r="5" fill="#fff" stroke="#78909c" stroke-width="2"/>
+<circle cx="609.5" cy="300.0" r="5" fill="#fff" stroke="#78909c" stroke-width="2"/>
+<circle cx="609.5" cy="335.0" r="5" fill="#fff" stroke="#78909c" stroke-width="2"/>
+<circle cx="609.5" cy="395.0" r="5" fill="#fff" stroke="#78909c" stroke-width="2"/>
+<circle cx="609.5" cy="430.0" r="5" fill="#fff" stroke="#78909c" stroke-width="2"/>
+<circle cx="609.5" cy="541.0" r="5" fill="#fff" stroke="#78909c" stroke-width="2"/>
+<text x="609.5454545454545" y="371.0" class="tiny" text-anchor="middle">5</text>
+<circle cx="673.2" cy="189.0" r="5" fill="#fff" stroke="#78909c" stroke-width="2"/>
+<circle cx="673.2" cy="300.0" r="5" fill="#fff" stroke="#78909c" stroke-width="2"/>
+<circle cx="673.2" cy="335.0" r="5" fill="#fff" stroke="#78909c" stroke-width="2"/>
+<circle cx="673.2" cy="395.0" r="5" fill="#fff" stroke="#78909c" stroke-width="2"/>
+<circle cx="673.2" cy="430.0" r="5" fill="#fff" stroke="#78909c" stroke-width="2"/>
+<circle cx="673.2" cy="541.0" r="5" fill="#fff" stroke="#78909c" stroke-width="2"/>
+<text x="673.1818181818182" y="371.0" class="tiny" text-anchor="middle">6</text>
+<circle cx="736.8" cy="189.0" r="5" fill="#fff" stroke="#78909c" stroke-width="2"/>
+<circle cx="736.8" cy="300.0" r="5" fill="#fff" stroke="#78909c" stroke-width="2"/>
+<circle cx="736.8" cy="335.0" r="5" fill="#fff" stroke="#78909c" stroke-width="2"/>
+<circle cx="736.8" cy="395.0" r="5" fill="#fff" stroke="#78909c" stroke-width="2"/>
+<circle cx="736.8" cy="430.0" r="5" fill="#fff" stroke="#78909c" stroke-width="2"/>
+<circle cx="736.8" cy="541.0" r="5" fill="#fff" stroke="#78909c" stroke-width="2"/>
+<text x="736.8181818181818" y="371.0" class="tiny" text-anchor="middle">7</text>
+<circle cx="800.5" cy="189.0" r="5" fill="#fff" stroke="#78909c" stroke-width="2"/>
+<circle cx="800.5" cy="300.0" r="5" fill="#fff" stroke="#78909c" stroke-width="2"/>
+<circle cx="800.5" cy="335.0" r="5" fill="#fff" stroke="#78909c" stroke-width="2"/>
+<circle cx="800.5" cy="395.0" r="5" fill="#fff" stroke="#78909c" stroke-width="2"/>
+<circle cx="800.5" cy="430.0" r="5" fill="#fff" stroke="#78909c" stroke-width="2"/>
+<circle cx="800.5" cy="541.0" r="5" fill="#fff" stroke="#78909c" stroke-width="2"/>
+<text x="800.4545454545455" y="371.0" class="tiny" text-anchor="middle">8</text>
+<circle cx="864.1" cy="189.0" r="5" fill="#fff" stroke="#78909c" stroke-width="2"/>
+<circle cx="864.1" cy="300.0" r="5" fill="#fff" stroke="#78909c" stroke-width="2"/>
+<circle cx="864.1" cy="335.0" r="5" fill="#fff" stroke="#78909c" stroke-width="2"/>
+<circle cx="864.1" cy="395.0" r="5" fill="#fff" stroke="#78909c" stroke-width="2"/>
+<circle cx="864.1" cy="430.0" r="5" fill="#fff" stroke="#78909c" stroke-width="2"/>
+<circle cx="864.1" cy="541.0" r="5" fill="#fff" stroke="#78909c" stroke-width="2"/>
+<text x="864.090909090909" y="371.0" class="tiny" text-anchor="middle">9</text>
+<circle cx="927.7" cy="189.0" r="5" fill="#fff" stroke="#78909c" stroke-width="2"/>
+<circle cx="927.7" cy="300.0" r="5" fill="#fff" stroke="#78909c" stroke-width="2"/>
+<circle cx="927.7" cy="335.0" r="5" fill="#fff" stroke="#78909c" stroke-width="2"/>
+<circle cx="927.7" cy="395.0" r="5" fill="#fff" stroke="#78909c" stroke-width="2"/>
+<circle cx="927.7" cy="430.0" r="5" fill="#fff" stroke="#78909c" stroke-width="2"/>
+<circle cx="927.7" cy="541.0" r="5" fill="#fff" stroke="#78909c" stroke-width="2"/>
+<text x="927.7272727272727" y="371.0" class="tiny" text-anchor="middle">10</text>
+<circle cx="991.4" cy="189.0" r="5" fill="#fff" stroke="#78909c" stroke-width="2"/>
+<circle cx="991.4" cy="300.0" r="5" fill="#fff" stroke="#78909c" stroke-width="2"/>
+<circle cx="991.4" cy="335.0" r="5" fill="#fff" stroke="#78909c" stroke-width="2"/>
+<circle cx="991.4" cy="395.0" r="5" fill="#fff" stroke="#78909c" stroke-width="2"/>
+<circle cx="991.4" cy="430.0" r="5" fill="#fff" stroke="#78909c" stroke-width="2"/>
+<circle cx="991.4" cy="541.0" r="5" fill="#fff" stroke="#78909c" stroke-width="2"/>
+<text x="991.3636363636364" y="371.0" class="tiny" text-anchor="middle">11</text>
+<circle cx="1055.0" cy="189.0" r="5" fill="#fff" stroke="#78909c" stroke-width="2"/>
+<circle cx="1055.0" cy="300.0" r="5" fill="#fff" stroke="#78909c" stroke-width="2"/>
+<circle cx="1055.0" cy="335.0" r="5" fill="#fff" stroke="#78909c" stroke-width="2"/>
+<circle cx="1055.0" cy="395.0" r="5" fill="#fff" stroke="#78909c" stroke-width="2"/>
+<circle cx="1055.0" cy="430.0" r="5" fill="#fff" stroke="#78909c" stroke-width="2"/>
+<circle cx="1055.0" cy="541.0" r="5" fill="#fff" stroke="#78909c" stroke-width="2"/>
+<text x="1055.0" y="371.0" class="tiny" text-anchor="middle">12</text>
+<text x="280" y="179" class="label" text-anchor="start">+</text>
+<text x="280" y="213" class="label" text-anchor="start">-</text>
+<text x="280" y="531" class="label" text-anchor="start">+</text>
+<text x="280" y="564" class="label" text-anchor="start">-</text>
+  <line x1="368" y1="220" x2="410" y2="220" stroke="#17324d" stroke-width="4"/>
+  <rect x="410" y="203" width="120" height="34" rx="8" fill="#f2dda1" stroke="#795f22" stroke-width="3"/>
+  <line x1="530" y1="220" x2="572" y2="220" stroke="#17324d" stroke-width="4"/>
+  <text x="470" y="192" class="small" text-anchor="middle">330 ohm</text>
+<polyline points="187,275 340,275 340,220 368,220" fill="none" stroke="#e53935" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/><polyline points="572,220 710,220" fill="none" stroke="#e53935" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/><text x="625" y="208" class="small" text-anchor="middle">RED</text>
+  <line x1="368" y1="310" x2="410" y2="310" stroke="#17324d" stroke-width="4"/>
+  <rect x="410" y="293" width="120" height="34" rx="8" fill="#f2dda1" stroke="#795f22" stroke-width="3"/>
+  <line x1="530" y1="310" x2="572" y2="310" stroke="#17324d" stroke-width="4"/>
+  <text x="470" y="282" class="small" text-anchor="middle">330 ohm</text>
+<polyline points="187,275 340,275 340,310 368,310" fill="none" stroke="#e53935" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/><polyline points="572,310 710,310" fill="none" stroke="#2e9d55" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/><text x="625" y="298" class="small" text-anchor="middle">GREEN</text>
+  <line x1="368" y1="400" x2="410" y2="400" stroke="#17324d" stroke-width="4"/>
+  <rect x="410" y="383" width="120" height="34" rx="8" fill="#f2dda1" stroke="#795f22" stroke-width="3"/>
+  <line x1="530" y1="400" x2="572" y2="400" stroke="#17324d" stroke-width="4"/>
+  <text x="470" y="372" class="small" text-anchor="middle">330 ohm</text>
+<polyline points="187,275 340,275 340,400 368,400" fill="none" stroke="#e53935" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/><polyline points="572,400 710,400" fill="none" stroke="#2374d8" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/><text x="625" y="388" class="small" text-anchor="middle">BLUE</text><circle cx="790" cy="315" r="86" fill="#f1f1f1" stroke="#17324d" stroke-width="4"/><circle cx="760" cy="295" r="24" fill="#ef5350" opacity="0.9"/><circle cx="800" cy="295" r="24" fill="#43a047" opacity="0.9"/><circle cx="780" cy="335" r="24" fill="#2979ff" opacity="0.9"/><text x="790" y="205" class="label" text-anchor="middle">RGB LED</text><polyline points="790,400 790,465 187,465" fill="none" stroke="#263238" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/><rect x="920" y="205" width="190" height="220" rx="16" class="panel"/>
+<text x="940" y="237" class="h2" text-anchor="start">Color mixing</text>
+<text x="940" y="271" class="small" text-anchor="start">R + G = yellow</text>
+<text x="940" y="299" class="small" text-anchor="start">R + B = magenta</text>
+<text x="940" y="327" class="small" text-anchor="start">G + B = cyan</text>
+<text x="940" y="355" class="small" text-anchor="start">R + G + B = white-ish</text>
+<text x="940" y="383" class="small" text-anchor="start">One resistor per color</text><text x="48" y="694" class="small">Confirm the RGB LED pin order from its datasheet; packages are not all identical.</text>
+</svg>

@@ -1,0 +1,139 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="720" viewBox="0 0 1200 720" role="img" aria-labelledby="title desc">
+  <title id="title">Circuit 5 - Series Resistors Reduce LED Current</title>
+  <desc id="desc">A 220 ohm and 330 ohm resistor are placed in series with one red LED.</desc>
+  <rect width="1200" height="720" fill="#f7fbfd"/>
+  <style>
+    .title { font: 700 30px Arial, sans-serif; fill: #17324d; }
+    .h2 { font: 700 21px Arial, sans-serif; fill: #17324d; }
+    .label { font: 600 17px Arial, sans-serif; fill: #17324d; }
+    .small { font: 15px Arial, sans-serif; fill: #526d82; }
+    .tiny { font: 12px Arial, sans-serif; fill: #526d82; }
+    .wire { fill: none; stroke-width: 7; stroke-linecap: round; stroke-linejoin: round; }
+    .thin { fill: none; stroke: #17324d; stroke-width: 3; }
+    .panel { fill: #ffffff; stroke: #a8c0cc; stroke-width: 3; }
+  </style>
+  <text x="48" y="48" class="title">Circuit 5 - Series Resistors Reduce LED Current</text>
+
+  <rect x="42" y="170" width="175" height="310" rx="20" fill="#dff0f5" stroke="#287b91" stroke-width="4"/>
+  <text x="129" y="215" class="h2" text-anchor="middle">5 V SOURCE</text>
+  <circle cx="187" cy="275" r="10" fill="#e53935"/>
+  <text x="77" y="282" class="label" text-anchor="start">5V</text>
+  <circle cx="187" cy="465" r="10" fill="#263238"/>
+  <text x="77" y="472" class="label" text-anchor="start">GND</text>
+<rect x="260" y="115" width="890" height="500" rx="24" fill="#e9f5f8" stroke="#287b91" stroke-width="4"/>
+<line x1="298" y1="173" x2="1112" y2="173" stroke="#e53935" stroke-width="4"/>
+<line x1="298" y1="206" x2="1112" y2="206" stroke="#1d70b8" stroke-width="4"/>
+<line x1="298" y1="524" x2="1112" y2="524" stroke="#e53935" stroke-width="4"/>
+<line x1="298" y1="557" x2="1112" y2="557" stroke="#1d70b8" stroke-width="4"/>
+<rect x="298" y="347.0" width="814" height="36" fill="#d9e8ed"/>
+<circle cx="355.0" cy="189.0" r="5" fill="#fff" stroke="#78909c" stroke-width="2"/>
+<circle cx="355.0" cy="300.0" r="5" fill="#fff" stroke="#78909c" stroke-width="2"/>
+<circle cx="355.0" cy="335.0" r="5" fill="#fff" stroke="#78909c" stroke-width="2"/>
+<circle cx="355.0" cy="395.0" r="5" fill="#fff" stroke="#78909c" stroke-width="2"/>
+<circle cx="355.0" cy="430.0" r="5" fill="#fff" stroke="#78909c" stroke-width="2"/>
+<circle cx="355.0" cy="541.0" r="5" fill="#fff" stroke="#78909c" stroke-width="2"/>
+<text x="355.0" y="371.0" class="tiny" text-anchor="middle">1</text>
+<circle cx="418.6" cy="189.0" r="5" fill="#fff" stroke="#78909c" stroke-width="2"/>
+<circle cx="418.6" cy="300.0" r="5" fill="#fff" stroke="#78909c" stroke-width="2"/>
+<circle cx="418.6" cy="335.0" r="5" fill="#fff" stroke="#78909c" stroke-width="2"/>
+<circle cx="418.6" cy="395.0" r="5" fill="#fff" stroke="#78909c" stroke-width="2"/>
+<circle cx="418.6" cy="430.0" r="5" fill="#fff" stroke="#78909c" stroke-width="2"/>
+<circle cx="418.6" cy="541.0" r="5" fill="#fff" stroke="#78909c" stroke-width="2"/>
+<text x="418.6363636363636" y="371.0" class="tiny" text-anchor="middle">2</text>
+<circle cx="482.3" cy="189.0" r="5" fill="#fff" stroke="#78909c" stroke-width="2"/>
+<circle cx="482.3" cy="300.0" r="5" fill="#fff" stroke="#78909c" stroke-width="2"/>
+<circle cx="482.3" cy="335.0" r="5" fill="#fff" stroke="#78909c" stroke-width="2"/>
+<circle cx="482.3" cy="395.0" r="5" fill="#fff" stroke="#78909c" stroke-width="2"/>
+<circle cx="482.3" cy="430.0" r="5" fill="#fff" stroke="#78909c" stroke-width="2"/>
+<circle cx="482.3" cy="541.0" r="5" fill="#fff" stroke="#78909c" stroke-width="2"/>
+<text x="482.27272727272725" y="371.0" class="tiny" text-anchor="middle">3</text>
+<circle cx="545.9" cy="189.0" r="5" fill="#fff" stroke="#78909c" stroke-width="2"/>
+<circle cx="545.9" cy="300.0" r="5" fill="#fff" stroke="#78909c" stroke-width="2"/>
+<circle cx="545.9" cy="335.0" r="5" fill="#fff" stroke="#78909c" stroke-width="2"/>
+<circle cx="545.9" cy="395.0" r="5" fill="#fff" stroke="#78909c" stroke-width="2"/>
+<circle cx="545.9" cy="430.0" r="5" fill="#fff" stroke="#78909c" stroke-width="2"/>
+<circle cx="545.9" cy="541.0" r="5" fill="#fff" stroke="#78909c" stroke-width="2"/>
+<text x="545.9090909090909" y="371.0" class="tiny" text-anchor="middle">4</text>
+<circle cx="609.5" cy="189.0" r="5" fill="#fff" stroke="#78909c" stroke-width="2"/>
+<circle cx="609.5" cy="300.0" r="5" fill="#fff" stroke="#78909c" stroke-width="2"/>
+<circle cx="609.5" cy="335.0" r="5" fill="#fff" stroke="#78909c" stroke-width="2"/>
+<circle cx="609.5" cy="395.0" r="5" fill="#fff" stroke="#78909c" stroke-width="2"/>
+<circle cx="609.5" cy="430.0" r="5" fill="#fff" stroke="#78909c" stroke-width="2"/>
+<circle cx="609.5" cy="541.0" r="5" fill="#fff" stroke="#78909c" stroke-width="2"/>
+<text x="609.5454545454545" y="371.0" class="tiny" text-anchor="middle">5</text>
+<circle cx="673.2" cy="189.0" r="5" fill="#fff" stroke="#78909c" stroke-width="2"/>
+<circle cx="673.2" cy="300.0" r="5" fill="#fff" stroke="#78909c" stroke-width="2"/>
+<circle cx="673.2" cy="335.0" r="5" fill="#fff" stroke="#78909c" stroke-width="2"/>
+<circle cx="673.2" cy="395.0" r="5" fill="#fff" stroke="#78909c" stroke-width="2"/>
+<circle cx="673.2" cy="430.0" r="5" fill="#fff" stroke="#78909c" stroke-width="2"/>
+<circle cx="673.2" cy="541.0" r="5" fill="#fff" stroke="#78909c" stroke-width="2"/>
+<text x="673.1818181818182" y="371.0" class="tiny" text-anchor="middle">6</text>
+<circle cx="736.8" cy="189.0" r="5" fill="#fff" stroke="#78909c" stroke-width="2"/>
+<circle cx="736.8" cy="300.0" r="5" fill="#fff" stroke="#78909c" stroke-width="2"/>
+<circle cx="736.8" cy="335.0" r="5" fill="#fff" stroke="#78909c" stroke-width="2"/>
+<circle cx="736.8" cy="395.0" r="5" fill="#fff" stroke="#78909c" stroke-width="2"/>
+<circle cx="736.8" cy="430.0" r="5" fill="#fff" stroke="#78909c" stroke-width="2"/>
+<circle cx="736.8" cy="541.0" r="5" fill="#fff" stroke="#78909c" stroke-width="2"/>
+<text x="736.8181818181818" y="371.0" class="tiny" text-anchor="middle">7</text>
+<circle cx="800.5" cy="189.0" r="5" fill="#fff" stroke="#78909c" stroke-width="2"/>
+<circle cx="800.5" cy="300.0" r="5" fill="#fff" stroke="#78909c" stroke-width="2"/>
+<circle cx="800.5" cy="335.0" r="5" fill="#fff" stroke="#78909c" stroke-width="2"/>
+<circle cx="800.5" cy="395.0" r="5" fill="#fff" stroke="#78909c" stroke-width="2"/>
+<circle cx="800.5" cy="430.0" r="5" fill="#fff" stroke="#78909c" stroke-width="2"/>
+<circle cx="800.5" cy="541.0" r="5" fill="#fff" stroke="#78909c" stroke-width="2"/>
+<text x="800.4545454545455" y="371.0" class="tiny" text-anchor="middle">8</text>
+<circle cx="864.1" cy="189.0" r="5" fill="#fff" stroke="#78909c" stroke-width="2"/>
+<circle cx="864.1" cy="300.0" r="5" fill="#fff" stroke="#78909c" stroke-width="2"/>
+<circle cx="864.1" cy="335.0" r="5" fill="#fff" stroke="#78909c" stroke-width="2"/>
+<circle cx="864.1" cy="395.0" r="5" fill="#fff" stroke="#78909c" stroke-width="2"/>
+<circle cx="864.1" cy="430.0" r="5" fill="#fff" stroke="#78909c" stroke-width="2"/>
+<circle cx="864.1" cy="541.0" r="5" fill="#fff" stroke="#78909c" stroke-width="2"/>
+<text x="864.090909090909" y="371.0" class="tiny" text-anchor="middle">9</text>
+<circle cx="927.7" cy="189.0" r="5" fill="#fff" stroke="#78909c" stroke-width="2"/>
+<circle cx="927.7" cy="300.0" r="5" fill="#fff" stroke="#78909c" stroke-width="2"/>
+<circle cx="927.7" cy="335.0" r="5" fill="#fff" stroke="#78909c" stroke-width="2"/>
+<circle cx="927.7" cy="395.0" r="5" fill="#fff" stroke="#78909c" stroke-width="2"/>
+<circle cx="927.7" cy="430.0" r="5" fill="#fff" stroke="#78909c" stroke-width="2"/>
+<circle cx="927.7" cy="541.0" r="5" fill="#fff" stroke="#78909c" stroke-width="2"/>
+<text x="927.7272727272727" y="371.0" class="tiny" text-anchor="middle">10</text>
+<circle cx="991.4" cy="189.0" r="5" fill="#fff" stroke="#78909c" stroke-width="2"/>
+<circle cx="991.4" cy="300.0" r="5" fill="#fff" stroke="#78909c" stroke-width="2"/>
+<circle cx="991.4" cy="335.0" r="5" fill="#fff" stroke="#78909c" stroke-width="2"/>
+<circle cx="991.4" cy="395.0" r="5" fill="#fff" stroke="#78909c" stroke-width="2"/>
+<circle cx="991.4" cy="430.0" r="5" fill="#fff" stroke="#78909c" stroke-width="2"/>
+<circle cx="991.4" cy="541.0" r="5" fill="#fff" stroke="#78909c" stroke-width="2"/>
+<text x="991.3636363636364" y="371.0" class="tiny" text-anchor="middle">11</text>
+<circle cx="1055.0" cy="189.0" r="5" fill="#fff" stroke="#78909c" stroke-width="2"/>
+<circle cx="1055.0" cy="300.0" r="5" fill="#fff" stroke="#78909c" stroke-width="2"/>
+<circle cx="1055.0" cy="335.0" r="5" fill="#fff" stroke="#78909c" stroke-width="2"/>
+<circle cx="1055.0" cy="395.0" r="5" fill="#fff" stroke="#78909c" stroke-width="2"/>
+<circle cx="1055.0" cy="430.0" r="5" fill="#fff" stroke="#78909c" stroke-width="2"/>
+<circle cx="1055.0" cy="541.0" r="5" fill="#fff" stroke="#78909c" stroke-width="2"/>
+<text x="1055.0" y="371.0" class="tiny" text-anchor="middle">12</text>
+<text x="280" y="179" class="label" text-anchor="start">+</text>
+<text x="280" y="213" class="label" text-anchor="start">-</text>
+<text x="280" y="531" class="label" text-anchor="start">+</text>
+<text x="280" y="564" class="label" text-anchor="start">-</text>
+  <line x1="358" y1="250" x2="400" y2="250" stroke="#17324d" stroke-width="4"/>
+  <rect x="400" y="233" width="120" height="34" rx="8" fill="#f2dda1" stroke="#795f22" stroke-width="3"/>
+  <line x1="520" y1="250" x2="562" y2="250" stroke="#17324d" stroke-width="4"/>
+  <text x="460" y="222" class="small" text-anchor="middle">220 ohm</text>
+
+  <line x1="568" y1="250" x2="610" y2="250" stroke="#17324d" stroke-width="4"/>
+  <rect x="610" y="233" width="120" height="34" rx="8" fill="#f2dda1" stroke="#795f22" stroke-width="3"/>
+  <line x1="730" y1="250" x2="772" y2="250" stroke="#17324d" stroke-width="4"/>
+  <text x="670" y="222" class="small" text-anchor="middle">330 ohm</text>
+
+  <path d="M850,305 Q880,250 910,305 Z" fill="#ef5350" stroke="#17324d" stroke-width="4"/>
+  <line x1="850" y1="305" x2="850" y2="368" stroke="#17324d" stroke-width="5"/>
+  <line x1="910" y1="305" x2="910" y2="368" stroke="#17324d" stroke-width="5"/>
+  <text x="880" y="240" class="label" text-anchor="middle">LED</text>
+  <text x="850" y="390" class="tiny" text-anchor="middle">A +</text>
+  <text x="910" y="390" class="tiny" text-anchor="middle">K -</text>
+<polyline points="187,275 330,275 330,250 358,250" fill="none" stroke="#e53935" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/><polyline points="562,250 568,250" fill="none" stroke="#ef7d19" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/><polyline points="772,250 850,250 850,305" fill="none" stroke="#ef7d19" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/><polyline points="910,368 910,465 187,465" fill="none" stroke="#263238" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/><rect x="925" y="205" width="195" height="200" rx="16" class="panel"/>
+<text x="945" y="237" class="h2" text-anchor="start">Result</text>
+<text x="945" y="271" class="small" text-anchor="start">R total = 550 ohm</text>
+<text x="945" y="299" class="small" text-anchor="start">Current about 5.5 mA</text>
+<text x="945" y="327" class="small" text-anchor="start">LED is dimmer</text>
+<text x="945" y="355" class="small" text-anchor="start">Series values add</text><text x="48" y="694" class="small">Compare measured resistor voltage and LED brightness with Circuit 1.</text>
+</svg>

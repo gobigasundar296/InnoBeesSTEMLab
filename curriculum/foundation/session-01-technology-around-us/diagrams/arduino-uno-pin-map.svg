@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="720" viewBox="0 0 1200 720" role="img" aria-labelledby="title desc">
+  <title id="title">Arduino Uno R3 External Pin Map</title>
+  <desc id="desc">Educational map of power, digital, PWM, serial, analog, I2C, SPI, reset, USB, and main controller connections.</desc>
+  <rect width="1200" height="720" fill="#f7fbfd"/>
+  <style>
+    .title { font: 700 30px Arial, sans-serif; fill: #17324d; }
+    .h2 { font: 700 21px Arial, sans-serif; fill: #17324d; }
+    .label { font: 600 17px Arial, sans-serif; fill: #17324d; }
+    .small { font: 15px Arial, sans-serif; fill: #526d82; }
+    .tiny { font: 12px Arial, sans-serif; fill: #526d82; }
+    .wire { fill: none; stroke-width: 7; stroke-linecap: round; stroke-linejoin: round; }
+    .thin { fill: none; stroke: #17324d; stroke-width: 3; }
+    .panel { fill: #ffffff; stroke: #a8c0cc; stroke-width: 3; }
+  </style>
+  <text x="48" y="48" class="title">Arduino Uno R3 External Pin Map</text>
+<rect x="235" y="90" width="730" height="550" rx="35" fill="#d8f1f4" stroke="#167187" stroke-width="5"/><rect x="265" y="160" width="180" height="160" rx="18" fill="#b7c9d0" stroke="#17324d" stroke-width="4"/><text x="355" y="245" class="h2" text-anchor="middle">USB-B</text><rect x="490" y="250" width="240" height="150" rx="16" fill="#255f70" stroke="#17324d" stroke-width="4"/><text x="610" y="332" class="h2" text-anchor="middle">ATmega328P</text><circle cx="845" cy="255" r="55" fill="#263238"/><text x="845" y="260" class="small" text-anchor="middle">POWER</text><rect x="260" y="115" width="430" height="38" rx="8" fill="#fff" stroke="#e53935" stroke-width="4"/><text x="475.0" y="140" class="tiny" text-anchor="middle">POWER: IOREF RESET 3.3V 5V GND GND VIN</text><rect x="485" y="115" width="450" height="38" rx="8" fill="#fff" stroke="#2e9d55" stroke-width="4"/><text x="710.0" y="140" class="tiny" text-anchor="middle">ANALOG: A0 A1 A2 A3 A4/SDA A5/SCL</text><rect x="250" y="605" width="690" height="38" rx="8" fill="#fff" stroke="#2374d8" stroke-width="4"/><text x="595.0" y="630" class="tiny" text-anchor="middle">DIGITAL: D0/RX D1/TX D2 D3~ D4 D5~ D6~ D7 D8 D9~ D10~ D11~ D12 D13</text><rect x="770" y="360" width="160" height="190" rx="16" class="panel"/>
+<text x="790" y="392" class="h2" text-anchor="start">Key marks</text>
+<text x="790" y="426" class="small" text-anchor="start">~ = PWM</text>
+<text x="790" y="454" class="small" text-anchor="start">D0/D1 = serial</text>
+<text x="790" y="482" class="small" text-anchor="start">D13 = built-in LED</text>
+<text x="790" y="510" class="small" text-anchor="start">A4/A5 = I2C</text>
+<text x="790" y="538" class="small" text-anchor="start">GND = common return</text><text x="48" y="694" class="small">Educational top-view map. Consult the official Arduino Uno R3 pinout before advanced wiring.</text>
+</svg>

@@ -1,0 +1,110 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="720" viewBox="0 0 1200 720" role="img" aria-labelledby="title desc">
+  <title id="title">Open, Closed, Series and Parallel Circuits</title>
+  <desc id="desc">Four panels compare an open switch, closed path, two LEDs in one series path, and two LED branches in parallel.</desc>
+  <rect width="1200" height="720" fill="#f7fbfd"/>
+  <style>
+    .title { font: 700 30px Arial, sans-serif; fill: #17324d; }
+    .h2 { font: 700 21px Arial, sans-serif; fill: #17324d; }
+    .label { font: 600 17px Arial, sans-serif; fill: #17324d; }
+    .small { font: 15px Arial, sans-serif; fill: #526d82; }
+    .tiny { font: 12px Arial, sans-serif; fill: #526d82; }
+    .wire { fill: none; stroke-width: 7; stroke-linecap: round; stroke-linejoin: round; }
+    .thin { fill: none; stroke: #17324d; stroke-width: 3; }
+    .panel { fill: #ffffff; stroke: #a8c0cc; stroke-width: 3; }
+  </style>
+  <text x="48" y="48" class="title">Open, Closed, Series and Parallel Circuits</text>
+<rect x="45" y="85" width="530" height="260" rx="18" class="panel"/>
+<text x="310" y="119" class="h2" text-anchor="middle">OPEN CIRCUIT</text>
+<polyline points="90,220 170,220" fill="none" stroke="#e53935" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+<polyline points="170,220 230,175" fill="none" stroke="#17324d" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+<polyline points="250,220 295,220" fill="none" stroke="#17324d" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <line x1="253" y1="220" x2="295" y2="220" stroke="#17324d" stroke-width="4"/>
+  <rect x="295" y="203" width="120" height="34" rx="8" fill="#f2dda1" stroke="#795f22" stroke-width="3"/>
+  <line x1="415" y1="220" x2="457" y2="220" stroke="#17324d" stroke-width="4"/>
+  <text x="355" y="192" class="small" text-anchor="middle">330</text>
+
+
+  <path d="M460,230 Q490,175 520,230 Z" fill="#ef5350" stroke="#17324d" stroke-width="4"/>
+  <line x1="460" y1="230" x2="460" y2="293" stroke="#17324d" stroke-width="5"/>
+  <line x1="520" y1="230" x2="520" y2="293" stroke="#17324d" stroke-width="5"/>
+  <text x="490" y="165" class="label" text-anchor="middle">LED</text>
+  <text x="460" y="315" class="tiny" text-anchor="middle">A +</text>
+  <text x="520" y="315" class="tiny" text-anchor="middle">K -</text>
+
+<polyline points="520,293 520,315 90,315" fill="none" stroke="#263238" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/><rect x="625" y="85" width="530" height="260" rx="18" class="panel"/>
+<text x="890" y="119" class="h2" text-anchor="middle">CLOSED CIRCUIT</text>
+<polyline points="670,220 750,220" fill="none" stroke="#e53935" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+<polyline points="750,220 875,220" fill="none" stroke="#2e9d55" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <line x1="833" y1="220" x2="875" y2="220" stroke="#17324d" stroke-width="4"/>
+  <rect x="875" y="203" width="120" height="34" rx="8" fill="#f2dda1" stroke="#795f22" stroke-width="3"/>
+  <line x1="995" y1="220" x2="1037" y2="220" stroke="#17324d" stroke-width="4"/>
+  <text x="935" y="192" class="small" text-anchor="middle">330</text>
+
+
+  <path d="M1040,230 Q1070,175 1100,230 Z" fill="#ef5350" stroke="#17324d" stroke-width="4"/>
+  <line x1="1040" y1="230" x2="1040" y2="293" stroke="#17324d" stroke-width="5"/>
+  <line x1="1100" y1="230" x2="1100" y2="293" stroke="#17324d" stroke-width="5"/>
+  <text x="1070" y="165" class="label" text-anchor="middle">LED</text>
+  <text x="1040" y="315" class="tiny" text-anchor="middle">A +</text>
+  <text x="1100" y="315" class="tiny" text-anchor="middle">K -</text>
+
+<polyline points="1100,293 1100,315 670,315" fill="none" stroke="#263238" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/><rect x="45" y="375" width="530" height="260" rx="18" class="panel"/><text x="310" y="409" class="h2" text-anchor="middle">SERIES: ONE PATH</text><polyline points="85,500 145,500" fill="none" stroke="#e53935" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+  <line x1="103" y1="500" x2="145" y2="500" stroke="#17324d" stroke-width="4"/>
+  <rect x="145" y="483" width="120" height="34" rx="8" fill="#f2dda1" stroke="#795f22" stroke-width="3"/>
+  <line x1="265" y1="500" x2="307" y2="500" stroke="#17324d" stroke-width="4"/>
+  <text x="205" y="472" class="small" text-anchor="middle">150</text>
+
+  <path d="M315,510 Q345,455 375,510 Z" fill="#ef5350" stroke="#17324d" stroke-width="4"/>
+  <line x1="315" y1="510" x2="315" y2="573" stroke="#17324d" stroke-width="5"/>
+  <line x1="375" y1="510" x2="375" y2="573" stroke="#17324d" stroke-width="5"/>
+  <text x="345" y="445" class="label" text-anchor="middle">LED 1</text>
+  <text x="315" y="595" class="tiny" text-anchor="middle">A +</text>
+  <text x="375" y="595" class="tiny" text-anchor="middle">K -</text>
+<polyline points="375,573 415,573 415,500" fill="none" stroke="#17324d" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M445,510 Q475,455 505,510 Z" fill="#ef5350" stroke="#17324d" stroke-width="4"/>
+  <line x1="445" y1="510" x2="445" y2="573" stroke="#17324d" stroke-width="5"/>
+  <line x1="505" y1="510" x2="505" y2="573" stroke="#17324d" stroke-width="5"/>
+  <text x="475" y="445" class="label" text-anchor="middle">LED 2</text>
+  <text x="445" y="595" class="tiny" text-anchor="middle">A +</text>
+  <text x="505" y="595" class="tiny" text-anchor="middle">K -</text>
+<polyline points="505,573 505,610 85,610" fill="none" stroke="#263238" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/><rect x="625" y="375" width="530" height="290" rx="18" class="panel"/>
+<text x="890" y="409" class="h2" text-anchor="middle">PARALLEL: TWO PATHS</text>
+<polyline points="670,495 730,495 730,590" fill="none" stroke="#e53935" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <line x1="738" y1="495" x2="780" y2="495" stroke="#17324d" stroke-width="4"/>
+  <rect x="780" y="478" width="120" height="34" rx="8" fill="#f2dda1" stroke="#795f22" stroke-width="3"/>
+  <line x1="900" y1="495" x2="942" y2="495" stroke="#17324d" stroke-width="4"/>
+  <text x="840" y="467" class="small" text-anchor="middle">330</text>
+
+
+  <path d="M985,505 Q1015,450 1045,505 Z" fill="#ef5350" stroke="#17324d" stroke-width="4"/>
+  <line x1="985" y1="505" x2="985" y2="568" stroke="#17324d" stroke-width="5"/>
+  <line x1="1045" y1="505" x2="1045" y2="568" stroke="#17324d" stroke-width="5"/>
+  <text x="1015" y="440" class="label" text-anchor="middle"></text>
+  <text x="985" y="590" class="tiny" text-anchor="middle">A +</text>
+  <text x="1045" y="590" class="tiny" text-anchor="middle">K -</text>
+
+<polyline points="730,495 738,495" fill="none" stroke="#e53935" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+<polyline points="942,495 985,495 985,505" fill="none" stroke="#ef7d19" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+<polyline points="1045,568 1095,568" fill="none" stroke="#263238" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <line x1="738" y1="590" x2="780" y2="590" stroke="#17324d" stroke-width="4"/>
+  <rect x="780" y="573" width="120" height="34" rx="8" fill="#f2dda1" stroke="#795f22" stroke-width="3"/>
+  <line x1="900" y1="590" x2="942" y2="590" stroke="#17324d" stroke-width="4"/>
+  <text x="840" y="562" class="small" text-anchor="middle">330</text>
+
+
+  <path d="M985,600 Q1015,545 1045,600 Z" fill="#43a047" stroke="#17324d" stroke-width="4"/>
+  <line x1="985" y1="600" x2="985" y2="663" stroke="#17324d" stroke-width="5"/>
+  <line x1="1045" y1="600" x2="1045" y2="663" stroke="#17324d" stroke-width="5"/>
+  <text x="1015" y="535" class="label" text-anchor="middle"></text>
+  <text x="985" y="685" class="tiny" text-anchor="middle">A +</text>
+  <text x="1045" y="685" class="tiny" text-anchor="middle">K -</text>
+
+<polyline points="730,590 738,590" fill="none" stroke="#e53935" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+<polyline points="942,590 985,590 985,600" fill="none" stroke="#ef7d19" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+<polyline points="1045,663 1095,663" fill="none" stroke="#263238" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+<polyline points="1095,568 1095,663 670,663" fill="none" stroke="#263238" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/><text x="48" y="694" class="small">Series: same current. Parallel: same voltage across each branch.</text>
+</svg>

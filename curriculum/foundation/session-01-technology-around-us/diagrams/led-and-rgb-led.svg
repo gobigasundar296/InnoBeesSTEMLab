@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="720" viewBox="0 0 1200 720" role="img" aria-labelledby="title desc">
+  <title id="title">LED and RGB LED Polarity</title>
+  <desc id="desc">A standard LED has an anode and cathode. A common-cathode RGB LED has three color anodes and one shared cathode, with a resistor for each color.</desc>
+  <rect width="1200" height="720" fill="#f7fbfd"/>
+  <style>
+    .title { font: 700 30px Arial, sans-serif; fill: #17324d; }
+    .h2 { font: 700 21px Arial, sans-serif; fill: #17324d; }
+    .label { font: 600 17px Arial, sans-serif; fill: #17324d; }
+    .small { font: 15px Arial, sans-serif; fill: #526d82; }
+    .tiny { font: 12px Arial, sans-serif; fill: #526d82; }
+    .wire { fill: none; stroke-width: 7; stroke-linecap: round; stroke-linejoin: round; }
+    .thin { fill: none; stroke: #17324d; stroke-width: 3; }
+    .panel { fill: #ffffff; stroke: #a8c0cc; stroke-width: 3; }
+  </style>
+  <text x="48" y="48" class="title">LED and RGB LED Polarity</text>
+
+  <path d="M160,265 Q190,210 220,265 Z" fill="#ef5350" stroke="#17324d" stroke-width="4"/>
+  <line x1="160" y1="265" x2="160" y2="328" stroke="#17324d" stroke-width="5"/>
+  <line x1="220" y1="265" x2="220" y2="328" stroke="#17324d" stroke-width="5"/>
+  <text x="190" y="200" class="label" text-anchor="middle">STANDARD LED</text>
+  <text x="160" y="350" class="tiny" text-anchor="middle">A +</text>
+  <text x="220" y="350" class="tiny" text-anchor="middle">K -</text>
+<rect x="55" y="440" width="285" height="150" rx="16" class="panel"/>
+<text x="75" y="472" class="h2" text-anchor="start">Polarity clues</text>
+<text x="75" y="506" class="small" text-anchor="start">Long leg: usually anode (+)</text>
+<text x="75" y="534" class="small" text-anchor="start">Short leg: usually cathode (-)</text>
+<text x="75" y="562" class="small" text-anchor="start">Flat rim: usually cathode</text><rect x="420" y="110" width="710" height="500" rx="22" class="panel"/><text x="775" y="150" class="h2" text-anchor="middle">COMMON-CATHODE RGB LED</text><circle cx="770" cy="310" r="90" fill="#f5f5f5" stroke="#17324d" stroke-width="4"/><circle cx="720" cy="300" r="25" fill="#ef5350" opacity="0.85"/><text x="720" y="306" class="label" text-anchor="middle">R</text><circle cx="770" cy="300" r="25" fill="#43a047" opacity="0.85"/><text x="770" y="306" class="label" text-anchor="middle">G</text><circle cx="820" cy="300" r="25" fill="#2979ff" opacity="0.85"/><text x="820" y="306" class="label" text-anchor="middle">B</text>
+  <line x1="488" y1="470" x2="530" y2="470" stroke="#17324d" stroke-width="4"/>
+  <rect x="530" y="453" width="120" height="34" rx="8" fill="#f2dda1" stroke="#795f22" stroke-width="3"/>
+  <line x1="650" y1="470" x2="692" y2="470" stroke="#17324d" stroke-width="4"/>
+  <text x="590" y="442" class="small" text-anchor="middle">330 ohm</text>
+<polyline points="692,470 720,470 720,385" fill="none" stroke="#e53935" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/><text x="590" y="535" class="small" text-anchor="middle">RED + resistor</text>
+  <line x1="648" y1="470" x2="690" y2="470" stroke="#17324d" stroke-width="4"/>
+  <rect x="690" y="453" width="120" height="34" rx="8" fill="#f2dda1" stroke="#795f22" stroke-width="3"/>
+  <line x1="810" y1="470" x2="852" y2="470" stroke="#17324d" stroke-width="4"/>
+  <text x="750" y="442" class="small" text-anchor="middle">330 ohm</text>
+<polyline points="852,470 880,470 880,385" fill="none" stroke="#2e9d55" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/><text x="750" y="535" class="small" text-anchor="middle">GREEN + resistor</text>
+  <line x1="808" y1="470" x2="850" y2="470" stroke="#17324d" stroke-width="4"/>
+  <rect x="850" y="453" width="120" height="34" rx="8" fill="#f2dda1" stroke="#795f22" stroke-width="3"/>
+  <line x1="970" y1="470" x2="1012" y2="470" stroke="#17324d" stroke-width="4"/>
+  <text x="910" y="442" class="small" text-anchor="middle">330 ohm</text>
+<polyline points="1012,470 1040,470 1040,385" fill="none" stroke="#2374d8" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/><text x="910" y="535" class="small" text-anchor="middle">BLUE + resistor</text><polyline points="770,400 770,430 960,430 960,565" fill="none" stroke="#263238" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/><text x="960" y="590" class="small" text-anchor="middle">COMMON CATHODE -&gt; GND</text><text x="48" y="694" class="small">Each RGB color is a separate LED and needs its own current-limiting resistor.</text>
+</svg>
