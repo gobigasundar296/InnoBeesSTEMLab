@@ -34,6 +34,10 @@ respond to sensor inputs.
 - [Student workbook](student-workbook.md)
 - [Teacher answer key](teacher-answer-key.md)
 
+## Image illustrations
+
+- [Editable SVG diagram index](circuits/README.md)
+
 ## Arduino programs
 
 - [Servo sweep and positions](arduino/01_servo_sweep/01_servo_sweep.ino)

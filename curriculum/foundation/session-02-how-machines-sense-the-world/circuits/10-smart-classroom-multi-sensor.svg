@@ -1,0 +1,128 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="720" viewBox="0 0 1200 720" role="img" aria-labelledby="title desc">
+  <title id="title">Smart Classroom Multi-Sensor Circuit</title>
+  <desc id="desc">The system combines light, motion, and sound inputs with LED and buzzer outputs.</desc>
+  <rect width="1200" height="720" fill="#f7fbfd"/>
+  <defs>
+    <marker id="arrow" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto" markerUnits="strokeWidth">
+      <path d="M2,2 L10,6 L2,10 Z" fill="#17324d"/>
+    </marker>
+  </defs>
+  <style>
+    .title { font: 700 30px Arial, sans-serif; fill: #17324d; }
+    .h2 { font: 700 21px Arial, sans-serif; fill: #17324d; }
+    .label { font: 600 17px Arial, sans-serif; fill: #17324d; }
+    .small { font: 15px Arial, sans-serif; fill: #526d82; }
+    .tiny { font: 12px Arial, sans-serif; fill: #526d82; }
+    .mono { font: 600 14px Consolas, monospace; fill: #17324d; }
+    .panel { fill: #ffffff; stroke: #a8c0cc; stroke-width: 3; }
+    .wire { fill: none; stroke-width: 6; stroke-linecap: round; stroke-linejoin: round; }
+  </style>
+  <text x="48" y="48" class="title">Smart Classroom Multi-Sensor Circuit</text>
+<rect x="50" y="105" width="245" height="500" rx="24" fill="#cce9f0" stroke="#167187" stroke-width="3"/>
+<text x="172.5" y="143" class="h2" text-anchor="middle">Arduino Uno</text>
+<rect x="78" y="177" width="78" height="120" rx="12" fill="#255f70" stroke="#17324d" stroke-width="3"/>
+<text x="117" y="229" class="tiny" text-anchor="middle">ATmega</text>
+<text x="117" y="249" class="tiny" text-anchor="middle">328P</text>
+<rect x="83" y="517" width="95" height="52" rx="8" fill="#bccbd3" stroke="#17324d" stroke-width="3"/>
+<text x="130" y="549" class="tiny" text-anchor="middle">USB-B</text>
+<circle cx="290" cy="183.0" r="8" fill="#d7f3dd" stroke="#17324d" stroke-width="2"/>
+<text x="213" y="188.0" class="small" text-anchor="start">A0</text>
+<circle cx="290" cy="244.66666666666666" r="8" fill="#fff" stroke="#17324d" stroke-width="2"/>
+<text x="213" y="249.66666666666666" class="small" text-anchor="start">D4</text>
+<circle cx="290" cy="306.3333333333333" r="8" fill="#fff" stroke="#17324d" stroke-width="2"/>
+<text x="213" y="311.3333333333333" class="small" text-anchor="start">D5</text>
+<circle cx="290" cy="368.0" r="8" fill="#fff" stroke="#17324d" stroke-width="2"/>
+<text x="213" y="373.0" class="small" text-anchor="start">D7</text>
+<circle cx="290" cy="429.66666666666663" r="8" fill="#fff" stroke="#17324d" stroke-width="2"/>
+<text x="213" y="434.66666666666663" class="small" text-anchor="start">D8</text>
+<circle cx="290" cy="491.3333333333333" r="8" fill="#f8c5c5" stroke="#17324d" stroke-width="2"/>
+<text x="213" y="496.3333333333333" class="small" text-anchor="start">5V</text>
+<circle cx="290" cy="553.0" r="8" fill="#263238" stroke="#17324d" stroke-width="2"/>
+<text x="213" y="558.0" class="small" text-anchor="start">GND</text>
+<rect x="380" y="120" width="260" height="185" rx="18" fill="#ffffff" stroke="#a8c0cc" stroke-width="3"/>
+<text x="510.0" y="154" class="h2" text-anchor="middle">LDR Divider</text>
+<circle cx="562" cy="212" r="42" fill="#f3e6a1" stroke="#17324d" stroke-width="3"/>
+<polyline points="506,174 539,197" class="wire" stroke="#f6a800" stroke-width="4" marker-end="url(#arrow)"/>
+<polyline points="508,217 540,234" class="wire" stroke="#f6a800" stroke-width="4" marker-end="url(#arrow)"/>
+<text x="562" y="218" class="label" text-anchor="middle">LDR</text>
+<circle cx="380" cy="186.0" r="7" fill="#f8c5c5" stroke="#17324d" stroke-width="2"/>
+<text x="398" y="191.0" class="small" text-anchor="start">5V</text>
+<circle cx="380" cy="230.5" r="7" fill="#d7f3dd" stroke="#17324d" stroke-width="2"/>
+<text x="398" y="235.5" class="small" text-anchor="start">A0</text>
+<circle cx="380" cy="275.0" r="7" fill="#263238" stroke="#17324d" stroke-width="2"/>
+<text x="398" y="280.0" class="small" text-anchor="start">GND</text>
+<rect x="380" y="330" width="260" height="185" rx="18" fill="#ffffff" stroke="#a8c0cc" stroke-width="3"/>
+<text x="510.0" y="364" class="h2" text-anchor="middle">PIR Sensor</text>
+<rect x="508" y="384" width="108" height="76" rx="10" fill="#b7e4c7" stroke="#17324d" stroke-width="3"/>
+<circle cx="562" cy="422" r="34" fill="#f1f5f9" stroke="#17324d" stroke-width="3"/>
+<circle cx="562" cy="422" r="20" fill="#d9e4ea" stroke="#78909c" stroke-width="2"/>
+<circle cx="380" cy="396.0" r="7" fill="#f8c5c5" stroke="#17324d" stroke-width="2"/>
+<text x="398" y="401.0" class="small" text-anchor="start">VCC</text>
+<circle cx="380" cy="440.5" r="7" fill="#fff" stroke="#17324d" stroke-width="2"/>
+<text x="398" y="445.5" class="small" text-anchor="start">OUT</text>
+<circle cx="380" cy="485.0" r="7" fill="#263238" stroke="#17324d" stroke-width="2"/>
+<text x="398" y="490.0" class="small" text-anchor="start">GND</text>
+<rect x="685" y="120" width="260" height="185" rx="18" fill="#ffffff" stroke="#a8c0cc" stroke-width="3"/>
+<text x="815.0" y="154" class="h2" text-anchor="middle">Sound Sensor</text>
+<rect x="807" y="174" width="120" height="76" rx="10" fill="#dcd5fa" stroke="#17324d" stroke-width="3"/>
+<circle cx="845" cy="212" r="22" fill="#333" stroke="#17324d" stroke-width="2"/>
+<circle cx="899" cy="212" r="18" fill="#f2dda1" stroke="#17324d" stroke-width="2"/>
+<circle cx="685" cy="186.0" r="7" fill="#f8c5c5" stroke="#17324d" stroke-width="2"/>
+<text x="703" y="191.0" class="small" text-anchor="start">VCC</text>
+<circle cx="685" cy="230.5" r="7" fill="#fff" stroke="#17324d" stroke-width="2"/>
+<text x="703" y="235.5" class="small" text-anchor="start">D0</text>
+<circle cx="685" cy="275.0" r="7" fill="#263238" stroke="#17324d" stroke-width="2"/>
+<text x="703" y="280.0" class="small" text-anchor="start">GND</text>
+<rect x="685" y="330" width="260" height="185" rx="18" fill="#ffffff" stroke="#a8c0cc" stroke-width="3"/>
+<text x="815.0" y="364" class="h2" text-anchor="middle">Room LED</text>
+
+  <path d="M841,424 Q867,378 893,424 Z" fill="#f6a800" stroke="#17324d" stroke-width="3"/>
+  <line x1="841" y1="424" x2="841" y2="480" stroke="#17324d" stroke-width="4"/>
+  <line x1="893" y1="424" x2="893" y2="480" stroke="#17324d" stroke-width="4"/>
+  <text x="867" y="371" class="tiny" text-anchor="middle"></text>
+
+
+  <line x1="735" y1="473" x2="777" y2="473" stroke="#17324d" stroke-width="4"/>
+  <rect x="777" y="457" width="112" height="32" rx="8" fill="#f2dda1" stroke="#795f22" stroke-width="3"/>
+  <line x1="889" y1="473" x2="931" y2="473" stroke="#17324d" stroke-width="4"/>
+  <text x="833" y="448" class="tiny" text-anchor="middle">330 ohm</text>
+
+<circle cx="685" cy="396.0" r="7" fill="#fff" stroke="#17324d" stroke-width="2"/>
+<text x="703" y="401.0" class="small" text-anchor="start">D8</text>
+<circle cx="685" cy="485.0" r="7" fill="#263238" stroke="#17324d" stroke-width="2"/>
+<text x="703" y="490.0" class="small" text-anchor="start">GND</text>
+<rect x="965" y="225" width="195" height="185" rx="18" fill="#ffffff" stroke="#a8c0cc" stroke-width="3"/>
+<text x="1062.5" y="259" class="h2" text-anchor="middle">Noise Buzzer</text>
+<circle cx="1082" cy="317" r="42" fill="#dcd5fa" stroke="#4d3aa3" stroke-width="4"/>
+<circle cx="1082" cy="317" r="16" fill="#4d3aa3"/>
+<polyline points="1124,297 1147,282" class="wire" stroke="#7556d8" stroke-width="3"/>
+<polyline points="1130,317 1157,317" class="wire" stroke="#7556d8" stroke-width="3"/>
+<circle cx="965" cy="291.0" r="7" fill="#fff" stroke="#17324d" stroke-width="2"/>
+<text x="983" y="296.0" class="small" text-anchor="start">D7</text>
+<circle cx="965" cy="380.0" r="7" fill="#263238" stroke="#17324d" stroke-width="2"/>
+<text x="983" y="385.0" class="small" text-anchor="start">GND</text>
+<polyline points="290,491.3333333333333 335.0,470.3333333333333 335.0,165.0 380,186.0" class="wire" stroke="#e53935" stroke-width="5"/>
+<polyline points="290,183.0 335.0,169.0 335.0,216.5 380,230.5" class="wire" stroke="#2e9d55" stroke-width="5"/>
+<text x="343.0" y="187.75" class="tiny" text-anchor="start">light</text>
+<polyline points="290,553.0 335.0,546.0 335.0,268.0 380,275.0" class="wire" stroke="#263238" stroke-width="5"/>
+<polyline points="290,491.3333333333333 335.0,491.3333333333333 335.0,396.0 380,396.0" class="wire" stroke="#e53935" stroke-width="5"/>
+<polyline points="290,244.66666666666666 335.0,251.66666666666666 335.0,447.5 380,440.5" class="wire" stroke="#2374d8" stroke-width="5"/>
+<text x="343.0" y="344.5833333333333" class="tiny" text-anchor="start">motion</text>
+<polyline points="290,553.0 335.0,567.0 335.0,499.0 380,485.0" class="wire" stroke="#263238" stroke-width="5"/>
+<polyline points="290,491.3333333333333 487.5,512.3333333333333 487.5,207.0 685,186.0" class="wire" stroke="#e53935" stroke-width="5"/>
+<polyline points="290,306.3333333333333 487.5,285.3333333333333 487.5,209.5 685,230.5" class="wire" stroke="#7556d8" stroke-width="5"/>
+<text x="495.5" y="242.41666666666663" class="tiny" text-anchor="start">loud?</text>
+<polyline points="290,553.0 487.5,539.0 487.5,261.0 685,275.0" class="wire" stroke="#263238" stroke-width="5"/>
+<polyline points="290,429.66666666666663 487.5,422.66666666666663 487.5,389.0 685,396.0" class="wire" stroke="#ef7d19" stroke-width="5"/>
+<text x="495.5" y="400.8333333333333" class="tiny" text-anchor="start">auto light</text>
+<polyline points="290,553.0 487.5,553.0 487.5,485.0 685,485.0" class="wire" stroke="#263238" stroke-width="5"/>
+<polyline points="290,368.0 627.5,375.0 627.5,298.0 965,291.0" class="wire" stroke="#7556d8" stroke-width="5"/>
+<text x="635.5" y="331.5" class="tiny" text-anchor="start">noise alert</text>
+<polyline points="290,553.0 627.5,567.0 627.5,394.0 965,380.0" class="wire" stroke="#263238" stroke-width="5"/>
+<rect x="850" y="500" width="300" height="114" rx="16" fill="#ffffff" stroke="#a8c0cc" stroke-width="3"/>
+<text x="868" y="530" class="h2" text-anchor="start">Key notes</text>
+<text x="870" y="562" class="small" text-anchor="start">LED on only when dark and motion is present</text>
+<text x="870" y="587" class="small" text-anchor="start">Buzzer beeps when sound sensor is HIGH</text>
+<text x="870" y="612" class="small" text-anchor="start">Serial Monitor shows all readings</text>
+  <text x="48" y="694" class="small">Pins match arduino/06_smart_classroom.</text>
+</svg>

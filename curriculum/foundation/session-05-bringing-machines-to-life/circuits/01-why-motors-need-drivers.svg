@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="720" viewBox="0 0 1200 720" role="img" aria-labelledby="title desc">
+  <title id="title">Why Motors Need Drivers</title>
+  <desc id="desc">A motor needs far more current than an Arduino I/O pin can safely provide.</desc>
+  <rect width="1200" height="720" fill="#f7fbfd"/>
+  <defs>
+    <marker id="arrow" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto" markerUnits="strokeWidth">
+      <path d="M2,2 L10,6 L2,10 Z" fill="#17324d"/>
+    </marker>
+  </defs>
+  <style>
+    .title { font: 700 30px Arial, sans-serif; fill: #17324d; }
+    .h2 { font: 700 21px Arial, sans-serif; fill: #17324d; }
+    .label { font: 600 17px Arial, sans-serif; fill: #17324d; }
+    .small { font: 15px Arial, sans-serif; fill: #526d82; }
+    .tiny { font: 12px Arial, sans-serif; fill: #526d82; }
+    .mono { font: 600 14px Consolas, monospace; fill: #17324d; }
+    .panel { fill: #ffffff; stroke: #a8c0cc; stroke-width: 3; }
+    .wire { fill: none; stroke-width: 6; stroke-linecap: round; stroke-linejoin: round; }
+  </style>
+  <text x="48" y="48" class="title">Why Motors Need Drivers</text>
+<rect x="70" y="115" width="310" height="440" rx="20" fill="#d8f1f4" stroke="#a8c0cc" stroke-width="3"/>
+<text x="225" y="155" class="h2" text-anchor="middle">Arduino I/O pin</text>
+<text x="105" y="220" class="label" text-anchor="start">Signal control</text>
+<text x="105" y="262" class="label" text-anchor="start">Recommended current:</text>
+<text x="105" y="304" class="label" text-anchor="start">about 20 mA</text>
+<text x="105" y="346" class="label" text-anchor="start">Good for LEDs</text>
+<text x="105" y="388" class="label" text-anchor="start">Not for motors</text>
+<rect x="445" y="115" width="310" height="440" rx="20" fill="#fff3d9" stroke="#a8c0cc" stroke-width="3"/>
+<text x="600" y="155" class="h2" text-anchor="middle">Small DC motor</text>
+<text x="480" y="220" class="label" text-anchor="start">Needs motion power</text>
+<text x="480" y="262" class="label" text-anchor="start">Typical current:</text>
+<text x="480" y="304" class="label" text-anchor="start">200-500 mA</text>
+<text x="480" y="346" class="label" text-anchor="start">Stall current higher</text>
+<text x="480" y="388" class="label" text-anchor="start">Can damage pins</text>
+<rect x="820" y="115" width="310" height="440" rx="20" fill="#dfeef2" stroke="#a8c0cc" stroke-width="3"/>
+<text x="975" y="155" class="h2" text-anchor="middle">Motor driver</text>
+<text x="855" y="220" class="label" text-anchor="start">Arduino sends logic</text>
+<text x="855" y="262" class="label" text-anchor="start">Driver switches power</text>
+<text x="855" y="304" class="label" text-anchor="start">Battery feeds motor</text>
+<text x="855" y="346" class="label" text-anchor="start">PWM controls speed</text>
+<text x="855" y="388" class="label" text-anchor="start">GND must be common</text>
+<polyline points="380,335 445,335" class="wire" stroke="#ef7d19" stroke-width="7" marker-end="url(#arrow)"/>
+<polyline points="755,335 820,335" class="wire" stroke="#2e9d55" stroke-width="7" marker-end="url(#arrow)"/>
+<text x="412" y="318" class="small" text-anchor="middle">use driver</text>
+<text x="787" y="318" class="small" text-anchor="middle">safe path</text>
+  <text x="48" y="694" class="small">Never power a DC motor directly from an Arduino I/O pin.</text>
+</svg>

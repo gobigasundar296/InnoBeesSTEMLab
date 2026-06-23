@@ -1,0 +1,105 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="720" viewBox="0 0 1200 720" role="img" aria-labelledby="title desc">
+  <title id="title">Traffic Light Timer Circuit</title>
+  <desc id="desc">Three LED outputs support the timer, countdown, and sequential logic challenge.</desc>
+  <rect width="1200" height="720" fill="#f7fbfd"/>
+  <defs>
+    <marker id="arrow" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto" markerUnits="strokeWidth">
+      <path d="M2,2 L10,6 L2,10 Z" fill="#17324d"/>
+    </marker>
+  </defs>
+  <style>
+    .title { font: 700 30px Arial, sans-serif; fill: #17324d; }
+    .h2 { font: 700 21px Arial, sans-serif; fill: #17324d; }
+    .label { font: 600 17px Arial, sans-serif; fill: #17324d; }
+    .small { font: 15px Arial, sans-serif; fill: #526d82; }
+    .tiny { font: 12px Arial, sans-serif; fill: #526d82; }
+    .mono { font: 600 14px Consolas, monospace; fill: #17324d; }
+    .panel { fill: #ffffff; stroke: #a8c0cc; stroke-width: 3; }
+    .wire { fill: none; stroke-width: 6; stroke-linecap: round; stroke-linejoin: round; }
+  </style>
+  <text x="48" y="48" class="title">Traffic Light Timer Circuit</text>
+<rect x="50" y="105" width="245" height="500" rx="24" fill="#cce9f0" stroke="#167187" stroke-width="3"/>
+<text x="172.5" y="143" class="h2" text-anchor="middle">Arduino Uno</text>
+<rect x="78" y="177" width="78" height="120" rx="12" fill="#255f70" stroke="#17324d" stroke-width="3"/>
+<text x="117" y="229" class="tiny" text-anchor="middle">ATmega</text>
+<text x="117" y="249" class="tiny" text-anchor="middle">328P</text>
+<rect x="83" y="517" width="95" height="52" rx="8" fill="#bccbd3" stroke="#17324d" stroke-width="3"/>
+<text x="130" y="549" class="tiny" text-anchor="middle">USB-B</text>
+<circle cx="290" cy="183.0" r="8" fill="#fff" stroke="#17324d" stroke-width="2"/>
+<text x="213" y="188.0" class="small" text-anchor="start">D4</text>
+<circle cx="290" cy="306.3333333333333" r="8" fill="#fff" stroke="#17324d" stroke-width="2"/>
+<text x="213" y="311.3333333333333" class="small" text-anchor="start">D3</text>
+<circle cx="290" cy="429.66666666666663" r="8" fill="#fff" stroke="#17324d" stroke-width="2"/>
+<text x="213" y="434.66666666666663" class="small" text-anchor="start">D2</text>
+<circle cx="290" cy="553.0" r="8" fill="#263238" stroke="#17324d" stroke-width="2"/>
+<text x="213" y="558.0" class="small" text-anchor="start">GND</text>
+<rect x="405" y="135" width="260" height="185" rx="18" fill="#ffffff" stroke="#a8c0cc" stroke-width="3"/>
+<text x="535.0" y="169" class="h2" text-anchor="middle">Red LED</text>
+
+  <path d="M561,229 Q587,183 613,229 Z" fill="#e53935" stroke="#17324d" stroke-width="3"/>
+  <line x1="561" y1="229" x2="561" y2="285" stroke="#17324d" stroke-width="4"/>
+  <line x1="613" y1="229" x2="613" y2="285" stroke="#17324d" stroke-width="4"/>
+  <text x="587" y="176" class="tiny" text-anchor="middle"></text>
+
+
+  <line x1="455" y1="278" x2="497" y2="278" stroke="#17324d" stroke-width="4"/>
+  <rect x="497" y="262" width="112" height="32" rx="8" fill="#f2dda1" stroke="#795f22" stroke-width="3"/>
+  <line x1="609" y1="278" x2="651" y2="278" stroke="#17324d" stroke-width="4"/>
+  <text x="553" y="253" class="tiny" text-anchor="middle">330 ohm</text>
+
+<circle cx="405" cy="201.0" r="7" fill="#fff" stroke="#17324d" stroke-width="2"/>
+<text x="423" y="206.0" class="small" text-anchor="start">D4</text>
+<circle cx="405" cy="290.0" r="7" fill="#263238" stroke="#17324d" stroke-width="2"/>
+<text x="423" y="295.0" class="small" text-anchor="start">GND</text>
+<rect x="680" y="245" width="260" height="185" rx="18" fill="#ffffff" stroke="#a8c0cc" stroke-width="3"/>
+<text x="810.0" y="279" class="h2" text-anchor="middle">Yellow LED</text>
+
+  <path d="M836,339 Q862,293 888,339 Z" fill="#f6a800" stroke="#17324d" stroke-width="3"/>
+  <line x1="836" y1="339" x2="836" y2="395" stroke="#17324d" stroke-width="4"/>
+  <line x1="888" y1="339" x2="888" y2="395" stroke="#17324d" stroke-width="4"/>
+  <text x="862" y="286" class="tiny" text-anchor="middle"></text>
+
+
+  <line x1="730" y1="388" x2="772" y2="388" stroke="#17324d" stroke-width="4"/>
+  <rect x="772" y="372" width="112" height="32" rx="8" fill="#f2dda1" stroke="#795f22" stroke-width="3"/>
+  <line x1="884" y1="388" x2="926" y2="388" stroke="#17324d" stroke-width="4"/>
+  <text x="828" y="363" class="tiny" text-anchor="middle">330 ohm</text>
+
+<circle cx="680" cy="311.0" r="7" fill="#fff" stroke="#17324d" stroke-width="2"/>
+<text x="698" y="316.0" class="small" text-anchor="start">D3</text>
+<circle cx="680" cy="400.0" r="7" fill="#263238" stroke="#17324d" stroke-width="2"/>
+<text x="698" y="405.0" class="small" text-anchor="start">GND</text>
+<rect x="405" y="430" width="260" height="185" rx="18" fill="#ffffff" stroke="#a8c0cc" stroke-width="3"/>
+<text x="535.0" y="464" class="h2" text-anchor="middle">Green LED</text>
+
+  <path d="M561,524 Q587,478 613,524 Z" fill="#2e9d55" stroke="#17324d" stroke-width="3"/>
+  <line x1="561" y1="524" x2="561" y2="580" stroke="#17324d" stroke-width="4"/>
+  <line x1="613" y1="524" x2="613" y2="580" stroke="#17324d" stroke-width="4"/>
+  <text x="587" y="471" class="tiny" text-anchor="middle"></text>
+
+
+  <line x1="455" y1="573" x2="497" y2="573" stroke="#17324d" stroke-width="4"/>
+  <rect x="497" y="557" width="112" height="32" rx="8" fill="#f2dda1" stroke="#795f22" stroke-width="3"/>
+  <line x1="609" y1="573" x2="651" y2="573" stroke="#17324d" stroke-width="4"/>
+  <text x="553" y="548" class="tiny" text-anchor="middle">330 ohm</text>
+
+<circle cx="405" cy="496.0" r="7" fill="#fff" stroke="#17324d" stroke-width="2"/>
+<text x="423" y="501.0" class="small" text-anchor="start">D2</text>
+<circle cx="405" cy="585.0" r="7" fill="#263238" stroke="#17324d" stroke-width="2"/>
+<text x="423" y="590.0" class="small" text-anchor="start">GND</text>
+<polyline points="290,183.0 347.5,162.0 347.5,180.0 405,201.0" class="wire" stroke="#e53935" stroke-width="5"/>
+<text x="355.5" y="166.0" class="tiny" text-anchor="start">stop</text>
+<polyline points="290,553.0 347.5,539.0 347.5,276.0 405,290.0" class="wire" stroke="#263238" stroke-width="5"/>
+<polyline points="290,306.3333333333333 485.0,299.3333333333333 485.0,304.0 680,311.0" class="wire" stroke="#f6a800" stroke-width="5"/>
+<text x="493.0" y="296.66666666666663" class="tiny" text-anchor="start">ready</text>
+<polyline points="290,553.0 485.0,553.0 485.0,400.0 680,400.0" class="wire" stroke="#263238" stroke-width="5"/>
+<polyline points="290,429.66666666666663 347.5,436.66666666666663 347.5,503.0 405,496.0" class="wire" stroke="#2e9d55" stroke-width="5"/>
+<text x="355.5" y="464.8333333333333" class="tiny" text-anchor="start">go</text>
+<polyline points="290,553.0 347.5,567.0 347.5,599.0 405,585.0" class="wire" stroke="#263238" stroke-width="5"/>
+<rect x="850" y="500" width="300" height="114" rx="16" fill="#ffffff" stroke="#a8c0cc" stroke-width="3"/>
+<text x="868" y="530" class="h2" text-anchor="start">Key notes</text>
+<text x="870" y="562" class="small" text-anchor="start">Sequence: green, yellow, red</text>
+<text x="870" y="587" class="small" text-anchor="start">Each LED needs 330 ohm</text>
+<text x="870" y="612" class="small" text-anchor="start">Use functions for clean code</text>
+  <text x="48" y="694" class="small">Pins match traffic signal programs.</text>
+</svg>

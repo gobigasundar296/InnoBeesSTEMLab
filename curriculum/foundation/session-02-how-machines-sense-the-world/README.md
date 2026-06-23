@@ -34,6 +34,10 @@ respond to touch, light, distance, motion, and more.
 - [Student workbook](student-workbook.md)
 - [Teacher answer key](teacher-answer-key.md)
 
+## Image illustrations
+
+- [Editable SVG diagram index](circuits/README.md)
+
 ## Arduino programs
 
 - [Button LED control](arduino/01_button_led_control/01_button_led_control.ino)

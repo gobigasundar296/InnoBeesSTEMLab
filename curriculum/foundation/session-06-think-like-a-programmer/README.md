@@ -34,6 +34,10 @@ and debug programs from previous sessions.
 - [Student workbook](student-workbook.md)
 - [Teacher answer key](teacher-answer-key.md)
 
+## Image illustrations
+
+- [Editable SVG diagram index](circuits/README.md)
+
 ## Arduino programs (coding challenges)
 
 - [Traffic light with timer](arduino/01_traffic_light_timer/01_traffic_light_timer.ino)

@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="720" viewBox="0 0 1200 720" role="img" aria-labelledby="title desc">
+  <title id="title">PIR Sensor Connections</title>
+  <desc id="desc">The HC-SR501 PIR module outputs HIGH when it detects changing infrared motion.</desc>
+  <rect width="1200" height="720" fill="#f7fbfd"/>
+  <defs>
+    <marker id="arrow" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto" markerUnits="strokeWidth">
+      <path d="M2,2 L10,6 L2,10 Z" fill="#17324d"/>
+    </marker>
+  </defs>
+  <style>
+    .title { font: 700 30px Arial, sans-serif; fill: #17324d; }
+    .h2 { font: 700 21px Arial, sans-serif; fill: #17324d; }
+    .label { font: 600 17px Arial, sans-serif; fill: #17324d; }
+    .small { font: 15px Arial, sans-serif; fill: #526d82; }
+    .tiny { font: 12px Arial, sans-serif; fill: #526d82; }
+    .mono { font: 600 14px Consolas, monospace; fill: #17324d; }
+    .panel { fill: #ffffff; stroke: #a8c0cc; stroke-width: 3; }
+    .wire { fill: none; stroke-width: 6; stroke-linecap: round; stroke-linejoin: round; }
+  </style>
+  <text x="48" y="48" class="title">PIR Sensor Connections</text>
+<rect x="50" y="105" width="245" height="500" rx="24" fill="#cce9f0" stroke="#167187" stroke-width="3"/>
+<text x="172.5" y="143" class="h2" text-anchor="middle">Arduino Uno</text>
+<rect x="78" y="177" width="78" height="120" rx="12" fill="#255f70" stroke="#17324d" stroke-width="3"/>
+<text x="117" y="229" class="tiny" text-anchor="middle">ATmega</text>
+<text x="117" y="249" class="tiny" text-anchor="middle">328P</text>
+<rect x="83" y="517" width="95" height="52" rx="8" fill="#bccbd3" stroke="#17324d" stroke-width="3"/>
+<text x="130" y="549" class="tiny" text-anchor="middle">USB-B</text>
+<circle cx="290" cy="183.0" r="8" fill="#fff" stroke="#17324d" stroke-width="2"/>
+<text x="213" y="188.0" class="small" text-anchor="start">D4</text>
+<circle cx="290" cy="368.0" r="8" fill="#f8c5c5" stroke="#17324d" stroke-width="2"/>
+<text x="213" y="373.0" class="small" text-anchor="start">5V</text>
+<circle cx="290" cy="553.0" r="8" fill="#263238" stroke="#17324d" stroke-width="2"/>
+<text x="213" y="558.0" class="small" text-anchor="start">GND</text>
+<rect x="445" y="175" width="340" height="250" rx="18" fill="#ffffff" stroke="#a8c0cc" stroke-width="3"/>
+<text x="615.0" y="209" class="h2" text-anchor="middle">HC-SR501 PIR</text>
+<rect x="653" y="229" width="108" height="76" rx="10" fill="#b7e4c7" stroke="#17324d" stroke-width="3"/>
+<circle cx="707" cy="267" r="34" fill="#f1f5f9" stroke="#17324d" stroke-width="3"/>
+<circle cx="707" cy="267" r="20" fill="#d9e4ea" stroke="#78909c" stroke-width="2"/>
+<circle cx="445" cy="241.0" r="7" fill="#f8c5c5" stroke="#17324d" stroke-width="2"/>
+<text x="463" y="246.0" class="small" text-anchor="start">VCC</text>
+<circle cx="445" cy="318.0" r="7" fill="#fff" stroke="#17324d" stroke-width="2"/>
+<text x="463" y="323.0" class="small" text-anchor="start">OUT</text>
+<circle cx="445" cy="395.0" r="7" fill="#263238" stroke="#17324d" stroke-width="2"/>
+<text x="463" y="400.0" class="small" text-anchor="start">GND</text>
+<polyline points="290,368.0 367.5,347.0 367.5,220.0 445,241.0" class="wire" stroke="#e53935" stroke-width="5"/>
+<text x="375.5" y="278.5" class="tiny" text-anchor="start">power</text>
+<polyline points="290,183.0 367.5,169.0 367.5,304.0 445,318.0" class="wire" stroke="#2374d8" stroke-width="5"/>
+<text x="375.5" y="231.5" class="tiny" text-anchor="start">motion signal</text>
+<polyline points="290,553.0 367.5,546.0 367.5,388.0 445,395.0" class="wire" stroke="#263238" stroke-width="5"/>
+<text x="375.5" y="462.0" class="tiny" text-anchor="start">return</text>
+<rect x="850" y="500" width="300" height="114" rx="16" fill="#ffffff" stroke="#a8c0cc" stroke-width="3"/>
+<text x="868" y="530" class="h2" text-anchor="start">Key notes</text>
+<text x="870" y="562" class="small" text-anchor="start">Allow about 30s warm-up</text>
+<text x="870" y="587" class="small" text-anchor="start">Detects motion, not distance</text>
+<text x="870" y="612" class="small" text-anchor="start">Adjust sensitivity and delay knobs</text>
+  <text x="48" y="694" class="small">PIR wiring used by the Visitor Alert project.</text>
+</svg>

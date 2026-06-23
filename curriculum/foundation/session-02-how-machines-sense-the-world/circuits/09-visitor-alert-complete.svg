@@ -1,0 +1,97 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="720" viewBox="0 0 1200 720" role="img" aria-labelledby="title desc">
+  <title id="title">Visitor Alert Complete Circuit</title>
+  <desc id="desc">A PIR sensor detects motion, then Arduino lights an LED and beeps the buzzer.</desc>
+  <rect width="1200" height="720" fill="#f7fbfd"/>
+  <defs>
+    <marker id="arrow" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto" markerUnits="strokeWidth">
+      <path d="M2,2 L10,6 L2,10 Z" fill="#17324d"/>
+    </marker>
+  </defs>
+  <style>
+    .title { font: 700 30px Arial, sans-serif; fill: #17324d; }
+    .h2 { font: 700 21px Arial, sans-serif; fill: #17324d; }
+    .label { font: 600 17px Arial, sans-serif; fill: #17324d; }
+    .small { font: 15px Arial, sans-serif; fill: #526d82; }
+    .tiny { font: 12px Arial, sans-serif; fill: #526d82; }
+    .mono { font: 600 14px Consolas, monospace; fill: #17324d; }
+    .panel { fill: #ffffff; stroke: #a8c0cc; stroke-width: 3; }
+    .wire { fill: none; stroke-width: 6; stroke-linecap: round; stroke-linejoin: round; }
+  </style>
+  <text x="48" y="48" class="title">Visitor Alert Complete Circuit</text>
+<rect x="50" y="105" width="245" height="500" rx="24" fill="#cce9f0" stroke="#167187" stroke-width="3"/>
+<text x="172.5" y="143" class="h2" text-anchor="middle">Arduino Uno</text>
+<rect x="78" y="177" width="78" height="120" rx="12" fill="#255f70" stroke="#17324d" stroke-width="3"/>
+<text x="117" y="229" class="tiny" text-anchor="middle">ATmega</text>
+<text x="117" y="249" class="tiny" text-anchor="middle">328P</text>
+<rect x="83" y="517" width="95" height="52" rx="8" fill="#bccbd3" stroke="#17324d" stroke-width="3"/>
+<text x="130" y="549" class="tiny" text-anchor="middle">USB-B</text>
+<circle cx="290" cy="183.0" r="8" fill="#fff" stroke="#17324d" stroke-width="2"/>
+<text x="213" y="188.0" class="small" text-anchor="start">D4</text>
+<circle cx="290" cy="275.5" r="8" fill="#fff" stroke="#17324d" stroke-width="2"/>
+<text x="213" y="280.5" class="small" text-anchor="start">D7</text>
+<circle cx="290" cy="368.0" r="8" fill="#fff" stroke="#17324d" stroke-width="2"/>
+<text x="213" y="373.0" class="small" text-anchor="start">D8</text>
+<circle cx="290" cy="460.5" r="8" fill="#f8c5c5" stroke="#17324d" stroke-width="2"/>
+<text x="213" y="465.5" class="small" text-anchor="start">5V</text>
+<circle cx="290" cy="553.0" r="8" fill="#263238" stroke="#17324d" stroke-width="2"/>
+<text x="213" y="558.0" class="small" text-anchor="start">GND</text>
+<rect x="405" y="145" width="295" height="220" rx="18" fill="#ffffff" stroke="#a8c0cc" stroke-width="3"/>
+<text x="552.5" y="179" class="h2" text-anchor="middle">PIR Motion Sensor</text>
+<rect x="568" y="199" width="108" height="76" rx="10" fill="#b7e4c7" stroke="#17324d" stroke-width="3"/>
+<circle cx="622" cy="237" r="34" fill="#f1f5f9" stroke="#17324d" stroke-width="3"/>
+<circle cx="622" cy="237" r="20" fill="#d9e4ea" stroke="#78909c" stroke-width="2"/>
+<circle cx="405" cy="211.0" r="7" fill="#f8c5c5" stroke="#17324d" stroke-width="2"/>
+<text x="423" y="216.0" class="small" text-anchor="start">VCC</text>
+<circle cx="405" cy="273.0" r="7" fill="#fff" stroke="#17324d" stroke-width="2"/>
+<text x="423" y="278.0" class="small" text-anchor="start">OUT</text>
+<circle cx="405" cy="335.0" r="7" fill="#263238" stroke="#17324d" stroke-width="2"/>
+<text x="423" y="340.0" class="small" text-anchor="start">GND</text>
+<rect x="735" y="145" width="285" height="205" rx="18" fill="#ffffff" stroke="#a8c0cc" stroke-width="3"/>
+<text x="877.5" y="179" class="h2" text-anchor="middle">Active Buzzer</text>
+<circle cx="942" cy="237" r="42" fill="#dcd5fa" stroke="#4d3aa3" stroke-width="4"/>
+<circle cx="942" cy="237" r="16" fill="#4d3aa3"/>
+<polyline points="984,217 1007,202" class="wire" stroke="#7556d8" stroke-width="3"/>
+<polyline points="990,237 1017,237" class="wire" stroke="#7556d8" stroke-width="3"/>
+<circle cx="735" cy="211.0" r="7" fill="#fff" stroke="#17324d" stroke-width="2"/>
+<text x="753" y="216.0" class="small" text-anchor="start">D7</text>
+<circle cx="735" cy="320.0" r="7" fill="#263238" stroke="#17324d" stroke-width="2"/>
+<text x="753" y="325.0" class="small" text-anchor="start">GND</text>
+<rect x="735" y="385" width="285" height="205" rx="18" fill="#ffffff" stroke="#a8c0cc" stroke-width="3"/>
+<text x="877.5" y="419" class="h2" text-anchor="middle">Alert LED</text>
+
+  <path d="M916,479 Q942,433 968,479 Z" fill="#e53935" stroke="#17324d" stroke-width="3"/>
+  <line x1="916" y1="479" x2="916" y2="535" stroke="#17324d" stroke-width="4"/>
+  <line x1="968" y1="479" x2="968" y2="535" stroke="#17324d" stroke-width="4"/>
+  <text x="942" y="426" class="tiny" text-anchor="middle"></text>
+
+
+  <line x1="785" y1="548" x2="827" y2="548" stroke="#17324d" stroke-width="4"/>
+  <rect x="827" y="532" width="112" height="32" rx="8" fill="#f2dda1" stroke="#795f22" stroke-width="3"/>
+  <line x1="939" y1="548" x2="981" y2="548" stroke="#17324d" stroke-width="4"/>
+  <text x="883" y="523" class="tiny" text-anchor="middle">330 ohm</text>
+
+<circle cx="735" cy="451.0" r="7" fill="#fff" stroke="#17324d" stroke-width="2"/>
+<text x="753" y="456.0" class="small" text-anchor="start">D8</text>
+<circle cx="735" cy="560.0" r="7" fill="#263238" stroke="#17324d" stroke-width="2"/>
+<text x="753" y="565.0" class="small" text-anchor="start">GND</text>
+<polyline points="290,460.5 347.5,439.5 347.5,190.0 405,211.0" class="wire" stroke="#e53935" stroke-width="5"/>
+<text x="355.5" y="309.75" class="tiny" text-anchor="start">power</text>
+<polyline points="290,183.0 347.5,169.0 347.5,259.0 405,273.0" class="wire" stroke="#2374d8" stroke-width="5"/>
+<text x="355.5" y="209.0" class="tiny" text-anchor="start">motion input</text>
+<polyline points="290,553.0 347.5,546.0 347.5,328.0 405,335.0" class="wire" stroke="#263238" stroke-width="5"/>
+<text x="355.5" y="432.0" class="tiny" text-anchor="start">return</text>
+<polyline points="290,275.5 512.5,275.5 512.5,211.0 735,211.0" class="wire" stroke="#7556d8" stroke-width="5"/>
+<text x="520.5" y="238.25" class="tiny" text-anchor="start">beep output</text>
+<polyline points="290,553.0 512.5,560.0 512.5,327.0 735,320.0" class="wire" stroke="#263238" stroke-width="5"/>
+<text x="520.5" y="438.5" class="tiny" text-anchor="start">return</text>
+<polyline points="290,368.0 512.5,382.0 512.5,465.0 735,451.0" class="wire" stroke="#ef7d19" stroke-width="5"/>
+<text x="520.5" y="418.5" class="tiny" text-anchor="start">visual alert</text>
+<polyline points="290,553.0 512.5,574.0 512.5,581.0 735,560.0" class="wire" stroke="#263238" stroke-width="5"/>
+<text x="520.5" y="572.5" class="tiny" text-anchor="start">return</text>
+<rect x="850" y="500" width="300" height="114" rx="16" fill="#ffffff" stroke="#a8c0cc" stroke-width="3"/>
+<text x="868" y="530" class="h2" text-anchor="start">Key notes</text>
+<text x="870" y="562" class="small" text-anchor="start">Warm up PIR first</text>
+<text x="870" y="587" class="small" text-anchor="start">Three short alert beeps</text>
+<text x="870" y="612" class="small" text-anchor="start">LED blinks during startup</text>
+  <text x="48" y="694" class="small">Pins match arduino/05_pir_visitor_alert.</text>
+</svg>

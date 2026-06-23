@@ -1,16 +1,44 @@
-# Circuit Diagrams: Session 5
+# Circuit Diagrams: Session 5: Bringing Machines to Life
 
-This folder will contain circuit diagrams for Session 5 motor projects.
+All images are editable SVG teaching diagrams generated from the
+curriculum notes and Arduino program wiring comments.
 
-## Planned diagrams
+## Why motors need drivers
 
-- Why motors need drivers (current comparison)
-- SG90 servo wiring to Arduino
-- DC motor with L298N motor driver — complete wiring
-- L298N pin layout and connections
-- L293D IC pinout on breadboard
-- Potentiometer speed control circuit
-- Automatic Gate complete system (ultrasonic + servo + LEDs)
-- Smart Fan Controller complete system (LDR + L298N + DC motor)
-- H-bridge concept diagram
-- Common ground connection between Arduino and motor driver
+![Why motors need drivers](01-why-motors-need-drivers.svg)
+
+## SG90 servo wiring to Arduino
+
+![SG90 servo wiring to Arduino](02-sg90-servo-wiring-arduino.svg)
+
+## DC motor with L298N motor driver
+
+![DC motor with L298N motor driver](03-dc-motor-l298n-complete.svg)
+
+## L298N pin layout and connections
+
+![L298N pin layout and connections](04-l298n-pin-layout.svg)
+
+## L293D IC pinout on breadboard
+
+![L293D IC pinout on breadboard](05-l293d-ic-pinout-breadboard.svg)
+
+## Potentiometer speed control circuit
+
+![Potentiometer speed control circuit](06-potentiometer-speed-control.svg)
+
+## Automatic Gate complete system
+
+![Automatic Gate complete system](07-automatic-gate-complete.svg)
+
+## Smart Fan Controller complete system
+
+![Smart Fan Controller complete system](08-smart-fan-controller-complete.svg)
+
+## H-bridge concept diagram
+
+![H-bridge concept diagram](09-h-bridge-concept.svg)
+
+## Common ground between Arduino and motor driver
+
+![Common ground between Arduino and motor driver](10-common-ground-motor-driver.svg)

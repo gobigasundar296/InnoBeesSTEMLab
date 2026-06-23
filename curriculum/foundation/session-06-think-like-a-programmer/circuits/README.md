@@ -1,42 +1,28 @@
-# Session 6: Circuit Diagrams
+# Circuit Diagrams: Session 6: Think Like a Programmer
 
-## Planned diagrams
+All images are editable SVG teaching diagrams generated from the
+curriculum notes and Arduino program wiring comments.
 
-The following circuit diagrams are needed for Session 6 programs:
+## Traffic light timer
 
-### 1. Traffic light timer
-- 3 LEDs (red, yellow, green) each with 330 ohm resistors
-- Connected to pins 4, 3, 2
+![Traffic light timer](01-traffic-light-timer.svg)
 
-### 2. Temperature alarm
-- Potentiometer on A0 (simulating temperature sensor)
-- 4 LEDs (blue, green, yellow, red) with 330 ohm resistors on pins 2-5
-- Buzzer on pin 6
+## Temperature alarm
 
-### 3. Pattern generator
-- 4 LEDs with 330 ohm resistors
-- Connected to pins 2, 3, 4, 5
+![Temperature alarm](02-temperature-alarm.svg)
 
-### 4. Reaction time game
-- 1 LED with 330 ohm resistor on pin 8
-- Push button on pin 2 (INPUT_PULLUP)
-- Buzzer on pin 6
+## Pattern generator
 
-### 5. Password lock
-- Green LED on pin 3, Red LED on pin 4 (each with 330 ohm resistor)
-- Buzzer on pin 5
-- Servo on pin 9
-- Serial Monitor for input (no additional wiring for keyboard)
+![Pattern generator](03-pattern-generator.svg)
 
-### 6. Debug challenge (smart nightlight)
-- LDR with 10k resistor (voltage divider) on A0
-- LED on pin 9 (PWM capable) with 330 ohm resistor
-- Push button on pin 2 (INPUT_PULLUP)
+## Reaction time game
 
-## Notes
+![Reaction time game](04-reaction-time-game.svg)
 
-- All circuits use Arduino Uno R3 with USB power.
-- All LEDs require 330 ohm current-limiting resistors.
-- Buttons use internal pull-up (INPUT_PULLUP) — connect button between
-  pin and GND.
-- Diagrams can be generated with Fritzing or Tinkercad Circuits.
+## Password lock
+
+![Password lock](05-password-lock.svg)
+
+## Debug challenge smart nightlight
+
+![Debug challenge smart nightlight](06-debug-nightlight-challenge.svg)

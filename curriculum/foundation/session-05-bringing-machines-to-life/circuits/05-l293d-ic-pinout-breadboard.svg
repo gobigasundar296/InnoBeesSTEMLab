@@ -1,0 +1,94 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="720" viewBox="0 0 1200 720" role="img" aria-labelledby="title desc">
+  <title id="title">L293D IC Pinout on Breadboard</title>
+  <desc id="desc">The 16-pin L293D motor driver IC straddles the breadboard center gap.</desc>
+  <rect width="1200" height="720" fill="#f7fbfd"/>
+  <defs>
+    <marker id="arrow" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto" markerUnits="strokeWidth">
+      <path d="M2,2 L10,6 L2,10 Z" fill="#17324d"/>
+    </marker>
+  </defs>
+  <style>
+    .title { font: 700 30px Arial, sans-serif; fill: #17324d; }
+    .h2 { font: 700 21px Arial, sans-serif; fill: #17324d; }
+    .label { font: 600 17px Arial, sans-serif; fill: #17324d; }
+    .small { font: 15px Arial, sans-serif; fill: #526d82; }
+    .tiny { font: 12px Arial, sans-serif; fill: #526d82; }
+    .mono { font: 600 14px Consolas, monospace; fill: #17324d; }
+    .panel { fill: #ffffff; stroke: #a8c0cc; stroke-width: 3; }
+    .wire { fill: none; stroke-width: 6; stroke-linecap: round; stroke-linejoin: round; }
+  </style>
+  <text x="48" y="48" class="title">L293D IC Pinout on Breadboard</text>
+<rect x="420" y="105" width="360" height="500" rx="22" fill="#e6eef2" stroke="#17324d" stroke-width="3"/>
+<text x="600" y="150" class="h2" text-anchor="middle">L293D</text>
+<rect x="515" y="210" width="170" height="300" rx="18" fill="#255f70" stroke="#17324d" stroke-width="3"/>
+<circle cx="515" cy="220" r="6" fill="#fff" stroke="#17324d" stroke-width="2"/>
+<text x="140" y="225" class="label" text-anchor="start">1 EN1,2</text>
+<text x="315" y="225" class="small" text-anchor="start">PWM</text>
+<polyline points="505,220 390,220" class="wire" stroke="#2374d8" stroke-width="3"/>
+<circle cx="515" cy="254" r="6" fill="#fff" stroke="#17324d" stroke-width="2"/>
+<text x="140" y="259" class="label" text-anchor="start">2 IN1</text>
+<text x="315" y="259" class="small" text-anchor="start">D6</text>
+<polyline points="505,254 390,254" class="wire" stroke="#2374d8" stroke-width="3"/>
+<circle cx="515" cy="288" r="6" fill="#fff" stroke="#17324d" stroke-width="2"/>
+<text x="140" y="293" class="label" text-anchor="start">3 OUT1</text>
+<text x="315" y="293" class="small" text-anchor="start">Motor A</text>
+<polyline points="505,288 390,288" class="wire" stroke="#2374d8" stroke-width="3"/>
+<circle cx="515" cy="322" r="6" fill="#fff" stroke="#17324d" stroke-width="2"/>
+<text x="140" y="327" class="label" text-anchor="start">4 GND</text>
+<text x="315" y="327" class="small" text-anchor="start">GND</text>
+<polyline points="505,322 390,322" class="wire" stroke="#2374d8" stroke-width="3"/>
+<circle cx="515" cy="356" r="6" fill="#fff" stroke="#17324d" stroke-width="2"/>
+<text x="140" y="361" class="label" text-anchor="start">5 GND</text>
+<text x="315" y="361" class="small" text-anchor="start">GND</text>
+<polyline points="505,356 390,356" class="wire" stroke="#2374d8" stroke-width="3"/>
+<circle cx="515" cy="390" r="6" fill="#fff" stroke="#17324d" stroke-width="2"/>
+<text x="140" y="395" class="label" text-anchor="start">6 OUT2</text>
+<text x="315" y="395" class="small" text-anchor="start">Motor A</text>
+<polyline points="505,390 390,390" class="wire" stroke="#2374d8" stroke-width="3"/>
+<circle cx="515" cy="424" r="6" fill="#fff" stroke="#17324d" stroke-width="2"/>
+<text x="140" y="429" class="label" text-anchor="start">7 IN2</text>
+<text x="315" y="429" class="small" text-anchor="start">D7</text>
+<polyline points="505,424 390,424" class="wire" stroke="#2374d8" stroke-width="3"/>
+<circle cx="515" cy="458" r="6" fill="#fff" stroke="#17324d" stroke-width="2"/>
+<text x="140" y="463" class="label" text-anchor="start">8 VS</text>
+<text x="315" y="463" class="small" text-anchor="start">Motor +</text>
+<polyline points="505,458 390,458" class="wire" stroke="#2374d8" stroke-width="3"/>
+<circle cx="685" cy="220" r="6" fill="#fff" stroke="#17324d" stroke-width="2"/>
+<text x="735" y="225" class="label" text-anchor="start">16 VSS</text>
+<text x="910" y="225" class="small" text-anchor="start">5V logic</text>
+<polyline points="695,220 810,220" class="wire" stroke="#ef7d19" stroke-width="3"/>
+<circle cx="685" cy="254" r="6" fill="#fff" stroke="#17324d" stroke-width="2"/>
+<text x="735" y="259" class="label" text-anchor="start">15 IN4</text>
+<text x="910" y="259" class="small" text-anchor="start">Motor B</text>
+<polyline points="695,254 810,254" class="wire" stroke="#ef7d19" stroke-width="3"/>
+<circle cx="685" cy="288" r="6" fill="#fff" stroke="#17324d" stroke-width="2"/>
+<text x="735" y="293" class="label" text-anchor="start">14 OUT4</text>
+<text x="910" y="293" class="small" text-anchor="start">Motor B</text>
+<polyline points="695,288 810,288" class="wire" stroke="#ef7d19" stroke-width="3"/>
+<circle cx="685" cy="322" r="6" fill="#fff" stroke="#17324d" stroke-width="2"/>
+<text x="735" y="327" class="label" text-anchor="start">13 GND</text>
+<text x="910" y="327" class="small" text-anchor="start">GND</text>
+<polyline points="695,322 810,322" class="wire" stroke="#ef7d19" stroke-width="3"/>
+<circle cx="685" cy="356" r="6" fill="#fff" stroke="#17324d" stroke-width="2"/>
+<text x="735" y="361" class="label" text-anchor="start">12 GND</text>
+<text x="910" y="361" class="small" text-anchor="start">GND</text>
+<polyline points="695,356 810,356" class="wire" stroke="#ef7d19" stroke-width="3"/>
+<circle cx="685" cy="390" r="6" fill="#fff" stroke="#17324d" stroke-width="2"/>
+<text x="735" y="395" class="label" text-anchor="start">11 OUT3</text>
+<text x="910" y="395" class="small" text-anchor="start">Motor B</text>
+<polyline points="695,390 810,390" class="wire" stroke="#ef7d19" stroke-width="3"/>
+<circle cx="685" cy="424" r="6" fill="#fff" stroke="#17324d" stroke-width="2"/>
+<text x="735" y="429" class="label" text-anchor="start">10 IN3</text>
+<text x="910" y="429" class="small" text-anchor="start">Motor B</text>
+<polyline points="695,424 810,424" class="wire" stroke="#ef7d19" stroke-width="3"/>
+<circle cx="685" cy="458" r="6" fill="#fff" stroke="#17324d" stroke-width="2"/>
+<text x="735" y="463" class="label" text-anchor="start">9 EN3,4</text>
+<text x="910" y="463" class="small" text-anchor="start">PWM</text>
+<polyline points="695,458 810,458" class="wire" stroke="#ef7d19" stroke-width="3"/>
+<rect x="100" y="560" width="1000" height="75" rx="16" fill="#ffffff" stroke="#a8c0cc" stroke-width="3"/>
+<text x="118" y="590" class="h2" text-anchor="start">Breadboard reminder</text>
+<text x="120" y="622" class="small" text-anchor="start">DIP notch marks the top</text>
+<text x="120" y="647" class="small" text-anchor="start">Pins count counter-clockwise</text>
+<text x="120" y="672" class="small" text-anchor="start">Use built-in diodes in L293D version</text>
+  <text x="48" y="694" class="small">Place the IC across the breadboard center channel.</text>
+</svg>

@@ -34,6 +34,10 @@ a mobile phone.
 - [Student workbook](student-workbook.md)
 - [Teacher answer key](teacher-answer-key.md)
 
+## Image illustrations
+
+- [Editable SVG diagram index](circuits/README.md)
+
 ## Arduino/ESP32 programs
 
 - [ESP32 Bluetooth LED control](arduino/01_bluetooth_led/01_bluetooth_led.ino)

@@ -1,0 +1,137 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="720" viewBox="0 0 1200 720" role="img" aria-labelledby="title desc">
+  <title id="title">Smart Fan Controller Complete System</title>
+  <desc id="desc">An LDR reading changes fan speed through the L298N PWM enable pin.</desc>
+  <rect width="1200" height="720" fill="#f7fbfd"/>
+  <defs>
+    <marker id="arrow" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto" markerUnits="strokeWidth">
+      <path d="M2,2 L10,6 L2,10 Z" fill="#17324d"/>
+    </marker>
+  </defs>
+  <style>
+    .title { font: 700 30px Arial, sans-serif; fill: #17324d; }
+    .h2 { font: 700 21px Arial, sans-serif; fill: #17324d; }
+    .label { font: 600 17px Arial, sans-serif; fill: #17324d; }
+    .small { font: 15px Arial, sans-serif; fill: #526d82; }
+    .tiny { font: 12px Arial, sans-serif; fill: #526d82; }
+    .mono { font: 600 14px Consolas, monospace; fill: #17324d; }
+    .panel { fill: #ffffff; stroke: #a8c0cc; stroke-width: 3; }
+    .wire { fill: none; stroke-width: 6; stroke-linecap: round; stroke-linejoin: round; }
+  </style>
+  <text x="48" y="48" class="title">Smart Fan Controller Complete System</text>
+<rect x="50" y="105" width="245" height="500" rx="24" fill="#cce9f0" stroke="#167187" stroke-width="3"/>
+<text x="172.5" y="143" class="h2" text-anchor="middle">Arduino Uno</text>
+<rect x="78" y="177" width="78" height="120" rx="12" fill="#255f70" stroke="#17324d" stroke-width="3"/>
+<text x="117" y="229" class="tiny" text-anchor="middle">ATmega</text>
+<text x="117" y="249" class="tiny" text-anchor="middle">328P</text>
+<rect x="83" y="517" width="95" height="52" rx="8" fill="#bccbd3" stroke="#17324d" stroke-width="3"/>
+<text x="130" y="549" class="tiny" text-anchor="middle">USB-B</text>
+<circle cx="290" cy="183.0" r="8" fill="#d7f3dd" stroke="#17324d" stroke-width="2"/>
+<text x="213" y="188.0" class="small" text-anchor="start">A0</text>
+<circle cx="290" cy="244.66666666666666" r="8" fill="#fff" stroke="#17324d" stroke-width="2"/>
+<text x="213" y="249.66666666666666" class="small" text-anchor="start">D3</text>
+<circle cx="290" cy="306.3333333333333" r="8" fill="#fff" stroke="#17324d" stroke-width="2"/>
+<text x="213" y="311.3333333333333" class="small" text-anchor="start">D5</text>
+<circle cx="290" cy="368.0" r="8" fill="#fff" stroke="#17324d" stroke-width="2"/>
+<text x="213" y="373.0" class="small" text-anchor="start">D6</text>
+<circle cx="290" cy="429.66666666666663" r="8" fill="#fff" stroke="#17324d" stroke-width="2"/>
+<text x="213" y="434.66666666666663" class="small" text-anchor="start">D7</text>
+<circle cx="290" cy="491.3333333333333" r="8" fill="#f8c5c5" stroke="#17324d" stroke-width="2"/>
+<text x="213" y="496.3333333333333" class="small" text-anchor="start">5V</text>
+<circle cx="290" cy="553.0" r="8" fill="#263238" stroke="#17324d" stroke-width="2"/>
+<text x="213" y="558.0" class="small" text-anchor="start">GND</text>
+<rect x="405" y="120" width="300" height="330" rx="18" fill="#ffffff" stroke="#a8c0cc" stroke-width="3"/>
+<text x="555.0" y="154" class="h2" text-anchor="middle">L298N Driver</text>
+<rect x="553" y="160" width="148" height="104" rx="8" fill="#dfebef" stroke="#17324d" stroke-width="3"/>
+<rect x="587" y="188" width="80" height="48" rx="6" fill="#255f70" stroke="#17324d" stroke-width="3"/>
+<text x="627" y="217" class="tiny" text-anchor="middle">L298N</text>
+<circle cx="405" cy="186.0" r="7" fill="#fff" stroke="#17324d" stroke-width="2"/>
+<text x="423" y="191.0" class="small" text-anchor="start">ENA</text>
+<circle cx="405" cy="225.0" r="7" fill="#fff" stroke="#17324d" stroke-width="2"/>
+<text x="423" y="230.0" class="small" text-anchor="start">IN1</text>
+<circle cx="405" cy="264.0" r="7" fill="#fff" stroke="#17324d" stroke-width="2"/>
+<text x="423" y="269.0" class="small" text-anchor="start">IN2</text>
+<circle cx="405" cy="303.0" r="7" fill="#263238" stroke="#17324d" stroke-width="2"/>
+<text x="423" y="308.0" class="small" text-anchor="start">GND</text>
+<circle cx="405" cy="342.0" r="7" fill="#fff" stroke="#17324d" stroke-width="2"/>
+<text x="423" y="347.0" class="small" text-anchor="start">VMS</text>
+<circle cx="405" cy="381.0" r="7" fill="#fff" stroke="#17324d" stroke-width="2"/>
+<text x="423" y="386.0" class="small" text-anchor="start">OUT1</text>
+<circle cx="405" cy="420.0" r="7" fill="#fff" stroke="#17324d" stroke-width="2"/>
+<text x="423" y="425.0" class="small" text-anchor="start">OUT2</text>
+<rect x="765" y="160" width="300" height="220" rx="18" fill="#ffffff" stroke="#a8c0cc" stroke-width="3"/>
+<text x="915.0" y="194" class="h2" text-anchor="middle">DC Motor</text>
+<circle cx="987" cy="252" r="44" fill="#d9e4ea" stroke="#17324d" stroke-width="4"/>
+<text x="987" y="258" class="h2" text-anchor="middle">M</text>
+<polyline points="1031,252 1065,252" class="wire" stroke="#17324d" stroke-width="5"/>
+<circle cx="765" cy="226.0" r="7" fill="#fff" stroke="#17324d" stroke-width="2"/>
+<text x="783" y="231.0" class="small" text-anchor="start">OUT1</text>
+<circle cx="765" cy="350.0" r="7" fill="#fff" stroke="#17324d" stroke-width="2"/>
+<text x="783" y="355.0" class="small" text-anchor="start">OUT2</text>
+<rect x="765" y="420" width="300" height="170" rx="18" fill="#ffffff" stroke="#a8c0cc" stroke-width="3"/>
+<text x="915.0" y="454" class="h2" text-anchor="middle">6-9V Battery</text>
+<rect x="931" y="478" width="112" height="68" rx="8" fill="#f8e5b5" stroke="#17324d" stroke-width="3"/>
+<text x="987" y="517" class="label" text-anchor="middle">6-9V</text>
+<circle cx="765" cy="486.0" r="7" fill="#f8c5c5" stroke="#17324d" stroke-width="2"/>
+<text x="783" y="491.0" class="small" text-anchor="start">+</text>
+<circle cx="765" cy="560.0" r="7" fill="#263238" stroke="#17324d" stroke-width="2"/>
+<text x="783" y="565.0" class="small" text-anchor="start">-</text>
+<rect x="405" y="480" width="300" height="155" rx="18" fill="#ffffff" stroke="#a8c0cc" stroke-width="3"/>
+<text x="555.0" y="514" class="h2" text-anchor="middle">LDR Divider</text>
+<circle cx="627" cy="572" r="42" fill="#f3e6a1" stroke="#17324d" stroke-width="3"/>
+<polyline points="571,534 604,557" class="wire" stroke="#f6a800" stroke-width="4" marker-end="url(#arrow)"/>
+<polyline points="573,577 605,594" class="wire" stroke="#f6a800" stroke-width="4" marker-end="url(#arrow)"/>
+<text x="627" y="578" class="label" text-anchor="middle">LDR</text>
+<circle cx="405" cy="546.0" r="7" fill="#f8c5c5" stroke="#17324d" stroke-width="2"/>
+<text x="423" y="551.0" class="small" text-anchor="start">5V</text>
+<circle cx="405" cy="575.5" r="7" fill="#d7f3dd" stroke="#17324d" stroke-width="2"/>
+<text x="423" y="580.5" class="small" text-anchor="start">A0</text>
+<circle cx="405" cy="605.0" r="7" fill="#263238" stroke="#17324d" stroke-width="2"/>
+<text x="423" y="610.0" class="small" text-anchor="start">GND</text>
+<rect x="955" y="500" width="195" height="135" rx="18" fill="#ffffff" stroke="#a8c0cc" stroke-width="3"/>
+<text x="1052.5" y="534" class="h2" text-anchor="middle">Status LED</text>
+
+  <path d="M1046,594 Q1072,548 1098,594 Z" fill="#2e9d55" stroke="#17324d" stroke-width="3"/>
+  <line x1="1046" y1="594" x2="1046" y2="650" stroke="#17324d" stroke-width="4"/>
+  <line x1="1098" y1="594" x2="1098" y2="650" stroke="#17324d" stroke-width="4"/>
+  <text x="1072" y="541" class="tiny" text-anchor="middle"></text>
+
+
+  <line x1="1005" y1="593" x2="1047" y2="593" stroke="#17324d" stroke-width="4"/>
+  <rect x="1047" y="577" width="112" height="32" rx="8" fill="#f2dda1" stroke="#795f22" stroke-width="3"/>
+  <line x1="1159" y1="593" x2="1201" y2="593" stroke="#17324d" stroke-width="4"/>
+  <text x="1103" y="568" class="tiny" text-anchor="middle">330 ohm</text>
+
+<circle cx="955" cy="566.0" r="7" fill="#fff" stroke="#17324d" stroke-width="2"/>
+<text x="973" y="571.0" class="small" text-anchor="start">D3</text>
+<circle cx="955" cy="605.0" r="7" fill="#263238" stroke="#17324d" stroke-width="2"/>
+<text x="973" y="610.0" class="small" text-anchor="start">GND</text>
+<polyline points="290,306.3333333333333 347.5,285.3333333333333 347.5,165.0 405,186.0" class="wire" stroke="#ef7d19" stroke-width="5"/>
+<text x="355.5" y="220.16666666666666" class="tiny" text-anchor="start">PWM speed</text>
+<polyline points="290,368.0 347.5,354.0 347.5,211.0 405,225.0" class="wire" stroke="#2374d8" stroke-width="5"/>
+<text x="355.5" y="277.5" class="tiny" text-anchor="start">direction 1</text>
+<polyline points="290,429.66666666666663 347.5,422.66666666666663 347.5,257.0 405,264.0" class="wire" stroke="#2374d8" stroke-width="5"/>
+<text x="355.5" y="334.8333333333333" class="tiny" text-anchor="start">direction 2</text>
+<polyline points="290,553.0 347.5,553.0 347.5,303.0 405,303.0" class="wire" stroke="#263238" stroke-width="5"/>
+<text x="355.5" y="423.0" class="tiny" text-anchor="start">common ground</text>
+<polyline points="290,491.3333333333333 347.5,498.3333333333333 347.5,553.0 405,546.0" class="wire" stroke="#e53935" stroke-width="5"/>
+<polyline points="290,183.0 347.5,197.0 347.5,589.5 405,575.5" class="wire" stroke="#2e9d55" stroke-width="5"/>
+<text x="355.5" y="388.25" class="tiny" text-anchor="start">light input</text>
+<polyline points="290,553.0 347.5,574.0 347.5,626.0 405,605.0" class="wire" stroke="#263238" stroke-width="5"/>
+<polyline points="290,244.66666666666666 622.5,223.66666666666666 622.5,545.0 955,566.0" class="wire" stroke="#ef7d19" stroke-width="5"/>
+<text x="630.5" y="379.3333333333333" class="tiny" text-anchor="start">status</text>
+<polyline points="290,553.0 622.5,539.0 622.5,591.0 955,605.0" class="wire" stroke="#263238" stroke-width="5"/>
+<polyline points="405,381.0 585.0,374.0 585.0,219.0 765,226.0" class="wire" stroke="#ef7d19" stroke-width="5"/>
+<text x="593.0" y="291.5" class="tiny" text-anchor="start">motor wire 1</text>
+<polyline points="405,420.0 585.0,420.0 585.0,350.0 765,350.0" class="wire" stroke="#ef7d19" stroke-width="5"/>
+<text x="593.0" y="380.0" class="tiny" text-anchor="start">motor wire 2</text>
+<polyline points="765,486.0 585.0,493.0 585.0,349.0 405,342.0" class="wire" stroke="#e53935" stroke-width="5"/>
+<text x="593.0" y="416.0" class="tiny" text-anchor="start">motor power</text>
+<polyline points="765,560.0 585.0,574.0 585.0,317.0 405,303.0" class="wire" stroke="#263238" stroke-width="5"/>
+<text x="593.0" y="440.5" class="tiny" text-anchor="start">battery GND</text>
+<rect x="850" y="500" width="300" height="114" rx="16" fill="#ffffff" stroke="#a8c0cc" stroke-width="3"/>
+<text x="868" y="530" class="h2" text-anchor="start">Key notes</text>
+<text x="870" y="562" class="small" text-anchor="start">ENA on D5 controls speed</text>
+<text x="870" y="587" class="small" text-anchor="start">IN1/IN2 choose direction</text>
+<text x="870" y="612" class="small" text-anchor="start">Battery powers motor through driver</text>
+  <text x="48" y="694" class="small">Remove ENA jumper when using PWM speed control.</text>
+</svg>

@@ -1,0 +1,63 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="720" viewBox="0 0 1200 720" role="img" aria-labelledby="title desc">
+  <title id="title">HC-SR04 Ultrasonic Sensor Connections</title>
+  <desc id="desc">TRIG sends a short pulse and ECHO reports the return time for distance measurement.</desc>
+  <rect width="1200" height="720" fill="#f7fbfd"/>
+  <defs>
+    <marker id="arrow" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto" markerUnits="strokeWidth">
+      <path d="M2,2 L10,6 L2,10 Z" fill="#17324d"/>
+    </marker>
+  </defs>
+  <style>
+    .title { font: 700 30px Arial, sans-serif; fill: #17324d; }
+    .h2 { font: 700 21px Arial, sans-serif; fill: #17324d; }
+    .label { font: 600 17px Arial, sans-serif; fill: #17324d; }
+    .small { font: 15px Arial, sans-serif; fill: #526d82; }
+    .tiny { font: 12px Arial, sans-serif; fill: #526d82; }
+    .mono { font: 600 14px Consolas, monospace; fill: #17324d; }
+    .panel { fill: #ffffff; stroke: #a8c0cc; stroke-width: 3; }
+    .wire { fill: none; stroke-width: 6; stroke-linecap: round; stroke-linejoin: round; }
+  </style>
+  <text x="48" y="48" class="title">HC-SR04 Ultrasonic Sensor Connections</text>
+<rect x="50" y="105" width="245" height="500" rx="24" fill="#cce9f0" stroke="#167187" stroke-width="3"/>
+<text x="172.5" y="143" class="h2" text-anchor="middle">Arduino Uno</text>
+<rect x="78" y="177" width="78" height="120" rx="12" fill="#255f70" stroke="#17324d" stroke-width="3"/>
+<text x="117" y="229" class="tiny" text-anchor="middle">ATmega</text>
+<text x="117" y="249" class="tiny" text-anchor="middle">328P</text>
+<rect x="83" y="517" width="95" height="52" rx="8" fill="#bccbd3" stroke="#17324d" stroke-width="3"/>
+<text x="130" y="549" class="tiny" text-anchor="middle">USB-B</text>
+<circle cx="290" cy="183.0" r="8" fill="#fff" stroke="#17324d" stroke-width="2"/>
+<text x="213" y="188.0" class="small" text-anchor="start">D9</text>
+<circle cx="290" cy="306.3333333333333" r="8" fill="#fff" stroke="#17324d" stroke-width="2"/>
+<text x="213" y="311.3333333333333" class="small" text-anchor="start">D10</text>
+<circle cx="290" cy="429.66666666666663" r="8" fill="#f8c5c5" stroke="#17324d" stroke-width="2"/>
+<text x="213" y="434.66666666666663" class="small" text-anchor="start">5V</text>
+<circle cx="290" cy="553.0" r="8" fill="#263238" stroke="#17324d" stroke-width="2"/>
+<text x="213" y="558.0" class="small" text-anchor="start">GND</text>
+<rect x="445" y="165" width="350" height="280" rx="18" fill="#ffffff" stroke="#a8c0cc" stroke-width="3"/>
+<text x="620.0" y="199" class="h2" text-anchor="middle">HC-SR04</text>
+<rect x="652" y="222" width="130" height="70" rx="8" fill="#3ab0c4" stroke="#17324d" stroke-width="3"/>
+<circle cx="684" cy="257" r="22" fill="#dfe7eb" stroke="#17324d" stroke-width="3"/>
+<circle cx="750" cy="257" r="22" fill="#dfe7eb" stroke="#17324d" stroke-width="3"/>
+<circle cx="445" cy="231.0" r="7" fill="#f8c5c5" stroke="#17324d" stroke-width="2"/>
+<text x="463" y="236.0" class="small" text-anchor="start">VCC</text>
+<circle cx="445" cy="292.3333333333333" r="7" fill="#fff" stroke="#17324d" stroke-width="2"/>
+<text x="463" y="297.3333333333333" class="small" text-anchor="start">TRIG</text>
+<circle cx="445" cy="353.6666666666667" r="7" fill="#fff" stroke="#17324d" stroke-width="2"/>
+<text x="463" y="358.6666666666667" class="small" text-anchor="start">ECHO</text>
+<circle cx="445" cy="415.0" r="7" fill="#263238" stroke="#17324d" stroke-width="2"/>
+<text x="463" y="420.0" class="small" text-anchor="start">GND</text>
+<polyline points="290,429.66666666666663 367.5,408.66666666666663 367.5,210.0 445,231.0" class="wire" stroke="#e53935" stroke-width="5"/>
+<text x="375.5" y="304.3333333333333" class="tiny" text-anchor="start">power</text>
+<polyline points="290,183.0 367.5,169.0 367.5,278.3333333333333 445,292.3333333333333" class="wire" stroke="#ef7d19" stroke-width="5"/>
+<text x="375.5" y="218.66666666666666" class="tiny" text-anchor="start">trigger pulse</text>
+<polyline points="290,306.3333333333333 367.5,299.3333333333333 367.5,346.6666666666667 445,353.6666666666667" class="wire" stroke="#2374d8" stroke-width="5"/>
+<text x="375.5" y="318.0" class="tiny" text-anchor="start">echo input</text>
+<polyline points="290,553.0 367.5,553.0 367.5,415.0 445,415.0" class="wire" stroke="#263238" stroke-width="5"/>
+<text x="375.5" y="479.0" class="tiny" text-anchor="start">return</text>
+<rect x="850" y="500" width="300" height="114" rx="16" fill="#ffffff" stroke="#a8c0cc" stroke-width="3"/>
+<text x="868" y="530" class="h2" text-anchor="start">Key notes</text>
+<text x="870" y="562" class="small" text-anchor="start">Distance = duration x 0.034 / 2</text>
+<text x="870" y="587" class="small" text-anchor="start">Keep sensor facing the target</text>
+<text x="870" y="612" class="small" text-anchor="start">Timeout avoids waiting forever</text>
+  <text x="48" y="694" class="small">Pins match arduino/04_ultrasonic_distance.</text>
+</svg>

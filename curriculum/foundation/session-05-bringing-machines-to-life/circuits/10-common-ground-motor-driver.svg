@@ -1,0 +1,81 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="720" viewBox="0 0 1200 720" role="img" aria-labelledby="title desc">
+  <title id="title">Common Ground Between Arduino and Motor Driver</title>
+  <desc id="desc">Control signals only work when Arduino, driver, and battery share the same ground reference.</desc>
+  <rect width="1200" height="720" fill="#f7fbfd"/>
+  <defs>
+    <marker id="arrow" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto" markerUnits="strokeWidth">
+      <path d="M2,2 L10,6 L2,10 Z" fill="#17324d"/>
+    </marker>
+  </defs>
+  <style>
+    .title { font: 700 30px Arial, sans-serif; fill: #17324d; }
+    .h2 { font: 700 21px Arial, sans-serif; fill: #17324d; }
+    .label { font: 600 17px Arial, sans-serif; fill: #17324d; }
+    .small { font: 15px Arial, sans-serif; fill: #526d82; }
+    .tiny { font: 12px Arial, sans-serif; fill: #526d82; }
+    .mono { font: 600 14px Consolas, monospace; fill: #17324d; }
+    .panel { fill: #ffffff; stroke: #a8c0cc; stroke-width: 3; }
+    .wire { fill: none; stroke-width: 6; stroke-linecap: round; stroke-linejoin: round; }
+  </style>
+  <text x="48" y="48" class="title">Common Ground Between Arduino and Motor Driver</text>
+<rect x="80" y="145" width="245" height="360" rx="24" fill="#cce9f0" stroke="#167187" stroke-width="3"/>
+<text x="202.5" y="183" class="h2" text-anchor="middle">Arduino Uno</text>
+<rect x="108" y="217" width="78" height="120" rx="12" fill="#255f70" stroke="#17324d" stroke-width="3"/>
+<text x="147" y="269" class="tiny" text-anchor="middle">ATmega</text>
+<text x="147" y="289" class="tiny" text-anchor="middle">328P</text>
+<rect x="113" y="417" width="95" height="52" rx="8" fill="#bccbd3" stroke="#17324d" stroke-width="3"/>
+<text x="160" y="449" class="tiny" text-anchor="middle">USB-B</text>
+<circle cx="320" cy="223.0" r="8" fill="#fff" stroke="#17324d" stroke-width="2"/>
+<text x="243" y="228.0" class="small" text-anchor="start">D5</text>
+<circle cx="320" cy="299.6666666666667" r="8" fill="#fff" stroke="#17324d" stroke-width="2"/>
+<text x="243" y="304.6666666666667" class="small" text-anchor="start">D6</text>
+<circle cx="320" cy="376.33333333333337" r="8" fill="#fff" stroke="#17324d" stroke-width="2"/>
+<text x="243" y="381.33333333333337" class="small" text-anchor="start">D7</text>
+<circle cx="320" cy="453.0" r="8" fill="#263238" stroke="#17324d" stroke-width="2"/>
+<text x="243" y="458.0" class="small" text-anchor="start">GND</text>
+<rect x="455" y="160" width="305" height="300" rx="18" fill="#ffffff" stroke="#a8c0cc" stroke-width="3"/>
+<text x="607.5" y="194" class="h2" text-anchor="middle">L298N Driver</text>
+<rect x="608" y="200" width="148" height="104" rx="8" fill="#dfebef" stroke="#17324d" stroke-width="3"/>
+<rect x="642" y="228" width="80" height="48" rx="6" fill="#255f70" stroke="#17324d" stroke-width="3"/>
+<text x="682" y="257" class="tiny" text-anchor="middle">L298N</text>
+<circle cx="455" cy="226.0" r="7" fill="#fff" stroke="#17324d" stroke-width="2"/>
+<text x="473" y="231.0" class="small" text-anchor="start">ENA</text>
+<circle cx="455" cy="277.0" r="7" fill="#fff" stroke="#17324d" stroke-width="2"/>
+<text x="473" y="282.0" class="small" text-anchor="start">IN1</text>
+<circle cx="455" cy="328.0" r="7" fill="#fff" stroke="#17324d" stroke-width="2"/>
+<text x="473" y="333.0" class="small" text-anchor="start">IN2</text>
+<circle cx="455" cy="379.0" r="7" fill="#263238" stroke="#17324d" stroke-width="2"/>
+<text x="473" y="384.0" class="small" text-anchor="start">GND</text>
+<circle cx="455" cy="430.0" r="7" fill="#fff" stroke="#17324d" stroke-width="2"/>
+<text x="473" y="435.0" class="small" text-anchor="start">VMS</text>
+<rect x="850" y="160" width="250" height="205" rx="18" fill="#ffffff" stroke="#a8c0cc" stroke-width="3"/>
+<text x="975.0" y="194" class="h2" text-anchor="middle">Motor Battery</text>
+<rect x="966" y="218" width="112" height="68" rx="8" fill="#f8e5b5" stroke="#17324d" stroke-width="3"/>
+<text x="1022" y="257" class="label" text-anchor="middle">6-9V</text>
+<circle cx="850" cy="226.0" r="7" fill="#f8c5c5" stroke="#17324d" stroke-width="2"/>
+<text x="868" y="231.0" class="small" text-anchor="start">+</text>
+<circle cx="850" cy="335.0" r="7" fill="#263238" stroke="#17324d" stroke-width="2"/>
+<text x="868" y="340.0" class="small" text-anchor="start">-</text>
+<rect x="850" y="405" width="250" height="205" rx="18" fill="#ffffff" stroke="#a8c0cc" stroke-width="3"/>
+<text x="975.0" y="439" class="h2" text-anchor="middle">DC Motor</text>
+<circle cx="1022" cy="497" r="44" fill="#d9e4ea" stroke="#17324d" stroke-width="4"/>
+<text x="1022" y="503" class="h2" text-anchor="middle">M</text>
+<polyline points="1066,497 1100,497" class="wire" stroke="#17324d" stroke-width="5"/>
+<circle cx="850" cy="471.0" r="7" fill="#fff" stroke="#17324d" stroke-width="2"/>
+<text x="868" y="476.0" class="small" text-anchor="start">OUT1</text>
+<circle cx="850" cy="580.0" r="7" fill="#fff" stroke="#17324d" stroke-width="2"/>
+<text x="868" y="585.0" class="small" text-anchor="start">OUT2</text>
+<polyline points="320,230 455,226" class="wire" stroke="#ef7d19" stroke-width="5"/>
+<polyline points="320,315 455,276" class="wire" stroke="#2374d8" stroke-width="5"/>
+<polyline points="320,400 455,326" class="wire" stroke="#2374d8" stroke-width="5"/>
+<polyline points="320,485 455,376 850,338" class="wire" stroke="#263238" stroke-width="7"/>
+<polyline points="850,226 760,430 455,430" class="wire" stroke="#e53935" stroke-width="6"/>
+<polyline points="760,235 850,471" class="wire" stroke="#ef7d19" stroke-width="5"/>
+<polyline points="760,285 850,544" class="wire" stroke="#ef7d19" stroke-width="5"/>
+<rect x="130" y="570" width="910" height="85" rx="16" fill="#ffffff" stroke="#a8c0cc" stroke-width="3"/>
+<text x="148" y="600" class="h2" text-anchor="start">Rule</text>
+<text x="150" y="632" class="small" text-anchor="start">Battery minus, driver GND, and Arduino GND are one node</text>
+<text x="150" y="657" class="small" text-anchor="start">Without common GND, signals have no reference</text>
+<text x="150" y="682" class="small" text-anchor="start">Keep motor power separate from I/O pins</text>
+  <text x="48" y="694" class="small">Common ground is required even when power supplies are separate.</text>
+</svg>

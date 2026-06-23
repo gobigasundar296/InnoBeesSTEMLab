@@ -34,6 +34,10 @@ servo motors using Arduino.
 - [Student workbook](student-workbook.md)
 - [Teacher answer key](teacher-answer-key.md)
 
+## Image illustrations
+
+- [Editable SVG diagram index](circuits/README.md)
+
 ## Arduino programs
 
 - [RGB LED color mixer](arduino/01_rgb_color_mixer/01_rgb_color_mixer.ino)

@@ -1,0 +1,98 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="720" viewBox="0 0 1200 720" role="img" aria-labelledby="title desc">
+  <title id="title">Arduino Uno with HC-05 Bluetooth Module</title>
+  <desc id="desc">HC-05 TX can drive Arduino RX, but Arduino TX should be stepped down before HC-05 RX.</desc>
+  <rect width="1200" height="720" fill="#f7fbfd"/>
+  <defs>
+    <marker id="arrow" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto" markerUnits="strokeWidth">
+      <path d="M2,2 L10,6 L2,10 Z" fill="#17324d"/>
+    </marker>
+  </defs>
+  <style>
+    .title { font: 700 30px Arial, sans-serif; fill: #17324d; }
+    .h2 { font: 700 21px Arial, sans-serif; fill: #17324d; }
+    .label { font: 600 17px Arial, sans-serif; fill: #17324d; }
+    .small { font: 15px Arial, sans-serif; fill: #526d82; }
+    .tiny { font: 12px Arial, sans-serif; fill: #526d82; }
+    .mono { font: 600 14px Consolas, monospace; fill: #17324d; }
+    .panel { fill: #ffffff; stroke: #a8c0cc; stroke-width: 3; }
+    .wire { fill: none; stroke-width: 6; stroke-linecap: round; stroke-linejoin: round; }
+  </style>
+  <text x="48" y="48" class="title">Arduino Uno with HC-05 Bluetooth Module</text>
+<rect x="50" y="105" width="245" height="500" rx="24" fill="#cce9f0" stroke="#167187" stroke-width="3"/>
+<text x="172.5" y="143" class="h2" text-anchor="middle">Arduino Uno</text>
+<rect x="78" y="177" width="78" height="120" rx="12" fill="#255f70" stroke="#17324d" stroke-width="3"/>
+<text x="117" y="229" class="tiny" text-anchor="middle">ATmega</text>
+<text x="117" y="249" class="tiny" text-anchor="middle">328P</text>
+<rect x="83" y="517" width="95" height="52" rx="8" fill="#bccbd3" stroke="#17324d" stroke-width="3"/>
+<text x="130" y="549" class="tiny" text-anchor="middle">USB-B</text>
+<circle cx="290" cy="183.0" r="8" fill="#fff" stroke="#17324d" stroke-width="2"/>
+<text x="213" y="188.0" class="small" text-anchor="start">D10</text>
+<circle cx="290" cy="275.5" r="8" fill="#fff" stroke="#17324d" stroke-width="2"/>
+<text x="213" y="280.5" class="small" text-anchor="start">D11</text>
+<circle cx="290" cy="368.0" r="8" fill="#fff" stroke="#17324d" stroke-width="2"/>
+<text x="213" y="373.0" class="small" text-anchor="start">D8</text>
+<circle cx="290" cy="460.5" r="8" fill="#f8c5c5" stroke="#17324d" stroke-width="2"/>
+<text x="213" y="465.5" class="small" text-anchor="start">5V</text>
+<circle cx="290" cy="553.0" r="8" fill="#263238" stroke="#17324d" stroke-width="2"/>
+<text x="213" y="558.0" class="small" text-anchor="start">GND</text>
+<rect x="390" y="125" width="330" height="260" rx="18" fill="#ffffff" stroke="#a8c0cc" stroke-width="3"/>
+<text x="555.0" y="159" class="h2" text-anchor="middle">HC-05 Bluetooth</text>
+<rect x="576" y="183" width="132" height="68" rx="8" fill="#b7e4c7" stroke="#17324d" stroke-width="3"/>
+<text x="642" y="223" class="label" text-anchor="middle">HC-05</text>
+<polyline points="690,183 716,161 736,175" class="wire" stroke="#17324d" stroke-width="4"/>
+<circle cx="390" cy="191.0" r="7" fill="#f8c5c5" stroke="#17324d" stroke-width="2"/>
+<text x="408" y="196.0" class="small" text-anchor="start">VCC</text>
+<circle cx="390" cy="245.66666666666666" r="7" fill="#263238" stroke="#17324d" stroke-width="2"/>
+<text x="408" y="250.66666666666666" class="small" text-anchor="start">GND</text>
+<circle cx="390" cy="300.3333333333333" r="7" fill="#fff" stroke="#17324d" stroke-width="2"/>
+<text x="408" y="305.3333333333333" class="small" text-anchor="start">TXD</text>
+<circle cx="390" cy="355.0" r="7" fill="#fff" stroke="#17324d" stroke-width="2"/>
+<text x="408" y="360.0" class="small" text-anchor="start">RXD</text>
+<rect x="760" y="135" width="300" height="230" rx="18" fill="#ffffff" stroke="#a8c0cc" stroke-width="3"/>
+<text x="910.0" y="169" class="h2" text-anchor="middle">1k + 2k Divider</text>
+<rect x="924" y="189" width="116" height="76" rx="10" fill="#e5eef2" stroke="#17324d" stroke-width="3"/>
+<text x="982" y="232" class="label" text-anchor="middle">5V-&gt;3.3V</text>
+<circle cx="760" cy="201.0" r="7" fill="#fff" stroke="#17324d" stroke-width="2"/>
+<text x="778" y="206.0" class="small" text-anchor="start">D11</text>
+<circle cx="760" cy="268.0" r="7" fill="#fff" stroke="#17324d" stroke-width="2"/>
+<text x="778" y="273.0" class="small" text-anchor="start">RXD</text>
+<circle cx="760" cy="335.0" r="7" fill="#263238" stroke="#17324d" stroke-width="2"/>
+<text x="778" y="340.0" class="small" text-anchor="start">GND</text>
+<rect x="760" y="395" width="300" height="195" rx="18" fill="#ffffff" stroke="#a8c0cc" stroke-width="3"/>
+<text x="910.0" y="429" class="h2" text-anchor="middle">Controlled LED</text>
+
+  <path d="M956,489 Q982,443 1008,489 Z" fill="#e53935" stroke="#17324d" stroke-width="3"/>
+  <line x1="956" y1="489" x2="956" y2="545" stroke="#17324d" stroke-width="4"/>
+  <line x1="1008" y1="489" x2="1008" y2="545" stroke="#17324d" stroke-width="4"/>
+  <text x="982" y="436" class="tiny" text-anchor="middle"></text>
+
+
+  <line x1="810" y1="548" x2="852" y2="548" stroke="#17324d" stroke-width="4"/>
+  <rect x="852" y="532" width="112" height="32" rx="8" fill="#f2dda1" stroke="#795f22" stroke-width="3"/>
+  <line x1="964" y1="548" x2="1006" y2="548" stroke="#17324d" stroke-width="4"/>
+  <text x="908" y="523" class="tiny" text-anchor="middle">330 ohm</text>
+
+<circle cx="760" cy="461.0" r="7" fill="#fff" stroke="#17324d" stroke-width="2"/>
+<text x="778" y="466.0" class="small" text-anchor="start">D8</text>
+<circle cx="760" cy="560.0" r="7" fill="#263238" stroke="#17324d" stroke-width="2"/>
+<text x="778" y="565.0" class="small" text-anchor="start">GND</text>
+<polyline points="290,460.5 340.0,439.5 340.0,170.0 390,191.0" class="wire" stroke="#e53935" stroke-width="5"/>
+<text x="348.0" y="299.75" class="tiny" text-anchor="start">power</text>
+<polyline points="290,553.0 340.0,539.0 340.0,231.66666666666666 390,245.66666666666666" class="wire" stroke="#263238" stroke-width="5"/>
+<polyline points="290,183.0 340.0,176.0 340.0,293.3333333333333 390,300.3333333333333" class="wire" stroke="#2374d8" stroke-width="5"/>
+<text x="348.0" y="229.66666666666666" class="tiny" text-anchor="start">BT TX -&gt; Uno RX</text>
+<polyline points="290,275.5 525.0,275.5 525.0,201.0 760,201.0" class="wire" stroke="#ef7d19" stroke-width="5"/>
+<text x="533.0" y="233.25" class="tiny" text-anchor="start">Uno TX</text>
+<polyline points="290,553.0 525.0,560.0 525.0,342.0 760,335.0" class="wire" stroke="#263238" stroke-width="5"/>
+<polyline points="290,368.0 525.0,382.0 525.0,475.0 760,461.0" class="wire" stroke="#ef7d19" stroke-width="5"/>
+<text x="533.0" y="423.5" class="tiny" text-anchor="start">LED output</text>
+<polyline points="290,553.0 525.0,574.0 525.0,581.0 760,560.0" class="wire" stroke="#263238" stroke-width="5"/>
+<polyline points="760,268.0 575.0,247.0 575.0,334.0 390,355.0" class="wire" stroke="#7556d8" stroke-width="5"/>
+<text x="583.0" y="285.5" class="tiny" text-anchor="start">stepped down RX</text>
+<rect x="850" y="500" width="300" height="114" rx="16" fill="#ffffff" stroke="#a8c0cc" stroke-width="3"/>
+<text x="868" y="530" class="h2" text-anchor="start">Key notes</text>
+<text x="870" y="562" class="small" text-anchor="start">HC-05 RXD is 3.3V logic</text>
+<text x="870" y="587" class="small" text-anchor="start">Use SoftwareSerial(10, 11)</text>
+<text x="870" y="612" class="small" text-anchor="start">Pair phone with HC-05</text>
+  <text x="48" y="694" class="small">Pins match arduino/06_arduino_hc05_bluetooth.</text>
+</svg>

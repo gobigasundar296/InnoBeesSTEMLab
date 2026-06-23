@@ -1,0 +1,124 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="720" viewBox="0 0 1200 720" role="img" aria-labelledby="title desc">
+  <title id="title">Automatic Gate Complete System</title>
+  <desc id="desc">The ultrasonic sensor detects a person, the servo opens the gate, and LEDs show gate state.</desc>
+  <rect width="1200" height="720" fill="#f7fbfd"/>
+  <defs>
+    <marker id="arrow" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto" markerUnits="strokeWidth">
+      <path d="M2,2 L10,6 L2,10 Z" fill="#17324d"/>
+    </marker>
+  </defs>
+  <style>
+    .title { font: 700 30px Arial, sans-serif; fill: #17324d; }
+    .h2 { font: 700 21px Arial, sans-serif; fill: #17324d; }
+    .label { font: 600 17px Arial, sans-serif; fill: #17324d; }
+    .small { font: 15px Arial, sans-serif; fill: #526d82; }
+    .tiny { font: 12px Arial, sans-serif; fill: #526d82; }
+    .mono { font: 600 14px Consolas, monospace; fill: #17324d; }
+    .panel { fill: #ffffff; stroke: #a8c0cc; stroke-width: 3; }
+    .wire { fill: none; stroke-width: 6; stroke-linecap: round; stroke-linejoin: round; }
+  </style>
+  <text x="48" y="48" class="title">Automatic Gate Complete System</text>
+<rect x="50" y="105" width="245" height="500" rx="24" fill="#cce9f0" stroke="#167187" stroke-width="3"/>
+<text x="172.5" y="143" class="h2" text-anchor="middle">Arduino Uno</text>
+<rect x="78" y="177" width="78" height="120" rx="12" fill="#255f70" stroke="#17324d" stroke-width="3"/>
+<text x="117" y="229" class="tiny" text-anchor="middle">ATmega</text>
+<text x="117" y="249" class="tiny" text-anchor="middle">328P</text>
+<rect x="83" y="517" width="95" height="52" rx="8" fill="#bccbd3" stroke="#17324d" stroke-width="3"/>
+<text x="130" y="549" class="tiny" text-anchor="middle">USB-B</text>
+<circle cx="290" cy="183.0" r="8" fill="#fff" stroke="#17324d" stroke-width="2"/>
+<text x="213" y="188.0" class="small" text-anchor="start">D9</text>
+<circle cx="290" cy="244.66666666666666" r="8" fill="#fff" stroke="#17324d" stroke-width="2"/>
+<text x="213" y="249.66666666666666" class="small" text-anchor="start">D10</text>
+<circle cx="290" cy="306.3333333333333" r="8" fill="#fff" stroke="#17324d" stroke-width="2"/>
+<text x="213" y="311.3333333333333" class="small" text-anchor="start">D6</text>
+<circle cx="290" cy="368.0" r="8" fill="#fff" stroke="#17324d" stroke-width="2"/>
+<text x="213" y="373.0" class="small" text-anchor="start">D4</text>
+<circle cx="290" cy="429.66666666666663" r="8" fill="#fff" stroke="#17324d" stroke-width="2"/>
+<text x="213" y="434.66666666666663" class="small" text-anchor="start">D5</text>
+<circle cx="290" cy="491.3333333333333" r="8" fill="#f8c5c5" stroke="#17324d" stroke-width="2"/>
+<text x="213" y="496.3333333333333" class="small" text-anchor="start">5V</text>
+<circle cx="290" cy="553.0" r="8" fill="#263238" stroke="#17324d" stroke-width="2"/>
+<text x="213" y="558.0" class="small" text-anchor="start">GND</text>
+<rect x="365" y="105" width="280" height="230" rx="18" fill="#ffffff" stroke="#a8c0cc" stroke-width="3"/>
+<text x="505.0" y="139" class="h2" text-anchor="middle">HC-SR04</text>
+<rect x="502" y="162" width="130" height="70" rx="8" fill="#3ab0c4" stroke="#17324d" stroke-width="3"/>
+<circle cx="534" cy="197" r="22" fill="#dfe7eb" stroke="#17324d" stroke-width="3"/>
+<circle cx="600" cy="197" r="22" fill="#dfe7eb" stroke="#17324d" stroke-width="3"/>
+<circle cx="365" cy="171.0" r="7" fill="#f8c5c5" stroke="#17324d" stroke-width="2"/>
+<text x="383" y="176.0" class="small" text-anchor="start">VCC</text>
+<circle cx="365" cy="215.66666666666666" r="7" fill="#fff" stroke="#17324d" stroke-width="2"/>
+<text x="383" y="220.66666666666666" class="small" text-anchor="start">TRIG</text>
+<circle cx="365" cy="260.3333333333333" r="7" fill="#fff" stroke="#17324d" stroke-width="2"/>
+<text x="383" y="265.3333333333333" class="small" text-anchor="start">ECHO</text>
+<circle cx="365" cy="305.0" r="7" fill="#263238" stroke="#17324d" stroke-width="2"/>
+<text x="383" y="310.0" class="small" text-anchor="start">GND</text>
+<rect x="680" y="105" width="270" height="230" rx="18" fill="#ffffff" stroke="#a8c0cc" stroke-width="3"/>
+<text x="815.0" y="139" class="h2" text-anchor="middle">Gate Servo</text>
+<rect x="814" y="159" width="116" height="76" rx="10" fill="#4aa3d8" stroke="#17324d" stroke-width="3"/>
+<circle cx="872" cy="197" r="24" fill="#d9e4ea" stroke="#17324d" stroke-width="3"/>
+<polyline points="872,197 930,165" class="wire" stroke="#17324d" stroke-width="7"/>
+<circle cx="680" cy="171.0" r="7" fill="#fff" stroke="#17324d" stroke-width="2"/>
+<text x="698" y="176.0" class="small" text-anchor="start">SIGNAL</text>
+<circle cx="680" cy="238.0" r="7" fill="#f8c5c5" stroke="#17324d" stroke-width="2"/>
+<text x="698" y="243.0" class="small" text-anchor="start">5V</text>
+<circle cx="680" cy="305.0" r="7" fill="#263238" stroke="#17324d" stroke-width="2"/>
+<text x="698" y="310.0" class="small" text-anchor="start">GND</text>
+<rect x="365" y="365" width="280" height="190" rx="18" fill="#ffffff" stroke="#a8c0cc" stroke-width="3"/>
+<text x="505.0" y="399" class="h2" text-anchor="middle">Open LED</text>
+
+  <path d="M541,459 Q567,413 593,459 Z" fill="#2e9d55" stroke="#17324d" stroke-width="3"/>
+  <line x1="541" y1="459" x2="541" y2="515" stroke="#17324d" stroke-width="4"/>
+  <line x1="593" y1="459" x2="593" y2="515" stroke="#17324d" stroke-width="4"/>
+  <text x="567" y="406" class="tiny" text-anchor="middle"></text>
+
+
+  <line x1="415" y1="513" x2="457" y2="513" stroke="#17324d" stroke-width="4"/>
+  <rect x="457" y="497" width="112" height="32" rx="8" fill="#f2dda1" stroke="#795f22" stroke-width="3"/>
+  <line x1="569" y1="513" x2="611" y2="513" stroke="#17324d" stroke-width="4"/>
+  <text x="513" y="488" class="tiny" text-anchor="middle">330 ohm</text>
+
+<circle cx="365" cy="431.0" r="7" fill="#fff" stroke="#17324d" stroke-width="2"/>
+<text x="383" y="436.0" class="small" text-anchor="start">D4</text>
+<circle cx="365" cy="525.0" r="7" fill="#263238" stroke="#17324d" stroke-width="2"/>
+<text x="383" y="530.0" class="small" text-anchor="start">GND</text>
+<rect x="680" y="365" width="270" height="190" rx="18" fill="#ffffff" stroke="#a8c0cc" stroke-width="3"/>
+<text x="815.0" y="399" class="h2" text-anchor="middle">Closed LED</text>
+
+  <path d="M846,459 Q872,413 898,459 Z" fill="#e53935" stroke="#17324d" stroke-width="3"/>
+  <line x1="846" y1="459" x2="846" y2="515" stroke="#17324d" stroke-width="4"/>
+  <line x1="898" y1="459" x2="898" y2="515" stroke="#17324d" stroke-width="4"/>
+  <text x="872" y="406" class="tiny" text-anchor="middle"></text>
+
+
+  <line x1="730" y1="513" x2="772" y2="513" stroke="#17324d" stroke-width="4"/>
+  <rect x="772" y="497" width="112" height="32" rx="8" fill="#f2dda1" stroke="#795f22" stroke-width="3"/>
+  <line x1="884" y1="513" x2="926" y2="513" stroke="#17324d" stroke-width="4"/>
+  <text x="828" y="488" class="tiny" text-anchor="middle">330 ohm</text>
+
+<circle cx="680" cy="431.0" r="7" fill="#fff" stroke="#17324d" stroke-width="2"/>
+<text x="698" y="436.0" class="small" text-anchor="start">D5</text>
+<circle cx="680" cy="525.0" r="7" fill="#263238" stroke="#17324d" stroke-width="2"/>
+<text x="698" y="530.0" class="small" text-anchor="start">GND</text>
+<polyline points="290,491.3333333333333 327.5,470.3333333333333 327.5,150.0 365,171.0" class="wire" stroke="#e53935" stroke-width="5"/>
+<polyline points="290,183.0 327.5,169.0 327.5,201.66666666666666 365,215.66666666666666" class="wire" stroke="#ef7d19" stroke-width="5"/>
+<text x="335.5" y="180.33333333333331" class="tiny" text-anchor="start">trigger</text>
+<polyline points="290,244.66666666666666 327.5,237.66666666666666 327.5,253.33333333333331 365,260.3333333333333" class="wire" stroke="#2374d8" stroke-width="5"/>
+<text x="335.5" y="240.5" class="tiny" text-anchor="start">echo</text>
+<polyline points="290,553.0 327.5,553.0 327.5,305.0 365,305.0" class="wire" stroke="#263238" stroke-width="5"/>
+<polyline points="290,306.3333333333333 485.0,313.3333333333333 485.0,178.0 680,171.0" class="wire" stroke="#7556d8" stroke-width="5"/>
+<text x="493.0" y="240.66666666666666" class="tiny" text-anchor="start">gate angle</text>
+<polyline points="290,491.3333333333333 485.0,505.3333333333333 485.0,252.0 680,238.0" class="wire" stroke="#e53935" stroke-width="5"/>
+<polyline points="290,553.0 485.0,574.0 485.0,326.0 680,305.0" class="wire" stroke="#263238" stroke-width="5"/>
+<polyline points="290,368.0 327.5,347.0 327.5,410.0 365,431.0" class="wire" stroke="#2e9d55" stroke-width="5"/>
+<text x="335.5" y="373.5" class="tiny" text-anchor="start">open</text>
+<polyline points="290,553.0 327.5,539.0 327.5,511.0 365,525.0" class="wire" stroke="#263238" stroke-width="5"/>
+<polyline points="290,429.66666666666663 485.0,422.66666666666663 485.0,424.0 680,431.0" class="wire" stroke="#e53935" stroke-width="5"/>
+<text x="493.0" y="418.3333333333333" class="tiny" text-anchor="start">closed</text>
+<polyline points="290,553.0 485.0,553.0 485.0,525.0 680,525.0" class="wire" stroke="#263238" stroke-width="5"/>
+<rect x="850" y="500" width="300" height="114" rx="16" fill="#ffffff" stroke="#a8c0cc" stroke-width="3"/>
+<text x="868" y="530" class="h2" text-anchor="start">Key notes</text>
+<text x="870" y="562" class="small" text-anchor="start">Opens below 30 cm</text>
+<text x="870" y="587" class="small" text-anchor="start">Holds open for 5 seconds</text>
+<text x="870" y="612" class="small" text-anchor="start">Smooth open and close functions</text>
+  <text x="48" y="694" class="small">Pins match arduino/04_automatic_gate.</text>
+</svg>

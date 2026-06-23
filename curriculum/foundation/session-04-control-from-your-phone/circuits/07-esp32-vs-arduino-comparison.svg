@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="720" viewBox="0 0 1200 720" role="img" aria-labelledby="title desc">
+  <title id="title">ESP32 vs Arduino Uno</title>
+  <desc id="desc">Side-by-side comparison of the boards used in Sessions 1-4.</desc>
+  <rect width="1200" height="720" fill="#f7fbfd"/>
+  <defs>
+    <marker id="arrow" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto" markerUnits="strokeWidth">
+      <path d="M2,2 L10,6 L2,10 Z" fill="#17324d"/>
+    </marker>
+  </defs>
+  <style>
+    .title { font: 700 30px Arial, sans-serif; fill: #17324d; }
+    .h2 { font: 700 21px Arial, sans-serif; fill: #17324d; }
+    .label { font: 600 17px Arial, sans-serif; fill: #17324d; }
+    .small { font: 15px Arial, sans-serif; fill: #526d82; }
+    .tiny { font: 12px Arial, sans-serif; fill: #526d82; }
+    .mono { font: 600 14px Consolas, monospace; fill: #17324d; }
+    .panel { fill: #ffffff; stroke: #a8c0cc; stroke-width: 3; }
+    .wire { fill: none; stroke-width: 6; stroke-linecap: round; stroke-linejoin: round; }
+  </style>
+  <text x="48" y="48" class="title">ESP32 vs Arduino Uno</text>
+<rect x="55" y="105" width="330" height="500" rx="20" fill="#d8f1f4" stroke="#a8c0cc" stroke-width="3"/>
+<text x="220" y="143" class="h2" text-anchor="middle">Arduino Uno</text>
+<text x="220" y="172" class="small" text-anchor="middle">Best for first wiring</text>
+<text x="83" y="220" class="small" text-anchor="start">ATmega328P controller</text>
+<text x="83" y="251" class="small" text-anchor="start">5V GPIO logic</text>
+<text x="83" y="282" class="small" text-anchor="start">No built-in wireless</text>
+<text x="83" y="313" class="small" text-anchor="start">6 analog inputs</text>
+<text x="83" y="344" class="small" text-anchor="start">Great for breadboards</text>
+<text x="83" y="375" class="small" text-anchor="start">USB Serial Monitor</text>
+<rect x="435" y="105" width="330" height="500" rx="20" fill="#d8e7f7" stroke="#a8c0cc" stroke-width="3"/>
+<text x="600" y="143" class="h2" text-anchor="middle">ESP32 DevKit</text>
+<text x="600" y="172" class="small" text-anchor="middle">Wireless-ready board</text>
+<text x="463" y="220" class="small" text-anchor="start">Dual-core ESP32 chip</text>
+<text x="463" y="251" class="small" text-anchor="start">3.3V GPIO logic</text>
+<text x="463" y="282" class="small" text-anchor="start">Built-in Wi-Fi</text>
+<text x="463" y="313" class="small" text-anchor="start">Built-in Bluetooth</text>
+<text x="463" y="344" class="small" text-anchor="start">Many ADC-capable pins</text>
+<text x="463" y="375" class="small" text-anchor="start">Web server projects</text>
+<rect x="815" y="105" width="330" height="500" rx="20" fill="#ffffff" stroke="#a8c0cc" stroke-width="3"/>
+<text x="980" y="143" class="h2" text-anchor="middle">Use Which?</text>
+<text x="980" y="172" class="small" text-anchor="middle">Practical decision</text>
+<text x="843" y="220" class="small" text-anchor="start">Use Uno for basics</text>
+<text x="843" y="251" class="small" text-anchor="start">Use ESP32 for phone control</text>
+<text x="843" y="282" class="small" text-anchor="start">Never feed 5V into ESP32 GPIO</text>
+<text x="843" y="313" class="small" text-anchor="start">Both can use Arduino IDE</text>
+<text x="843" y="344" class="small" text-anchor="start">Both need common GND</text>
+<text x="843" y="375" class="small" text-anchor="start">Check pin names carefully</text>
+  <text x="48" y="694" class="small">Session 4 uses ESP32 for wireless and Arduino Uno with HC-05 as an optional comparison.</text>
+</svg>

@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="720" viewBox="0 0 1200 720" role="img" aria-labelledby="title desc">
+  <title id="title">H-Bridge Concept Diagram</title>
+  <desc id="desc">Four switches reverse motor current direction by choosing diagonal switch pairs.</desc>
+  <rect width="1200" height="720" fill="#f7fbfd"/>
+  <defs>
+    <marker id="arrow" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto" markerUnits="strokeWidth">
+      <path d="M2,2 L10,6 L2,10 Z" fill="#17324d"/>
+    </marker>
+  </defs>
+  <style>
+    .title { font: 700 30px Arial, sans-serif; fill: #17324d; }
+    .h2 { font: 700 21px Arial, sans-serif; fill: #17324d; }
+    .label { font: 600 17px Arial, sans-serif; fill: #17324d; }
+    .small { font: 15px Arial, sans-serif; fill: #526d82; }
+    .tiny { font: 12px Arial, sans-serif; fill: #526d82; }
+    .mono { font: 600 14px Consolas, monospace; fill: #17324d; }
+    .panel { fill: #ffffff; stroke: #a8c0cc; stroke-width: 3; }
+    .wire { fill: none; stroke-width: 6; stroke-linecap: round; stroke-linejoin: round; }
+  </style>
+  <text x="48" y="48" class="title">H-Bridge Concept Diagram</text>
+<rect x="75" y="105" width="500" height="505" rx="20" fill="#ffffff" stroke="#a8c0cc" stroke-width="3"/>
+<text x="325" y="145" class="h2" text-anchor="middle">Forward</text>
+<rect x="175" y="202" width="90" height="56" rx="10" fill="#b7e4c7" stroke="#17324d" stroke-width="3"/>
+<text x="220" y="236" class="label" text-anchor="middle">S1</text>
+<rect x="385" y="202" width="90" height="56" rx="10" fill="#edf2f7" stroke="#17324d" stroke-width="3"/>
+<text x="430" y="236" class="label" text-anchor="middle">S2</text>
+<rect x="175" y="442" width="90" height="56" rx="10" fill="#edf2f7" stroke="#17324d" stroke-width="3"/>
+<text x="220" y="476" class="label" text-anchor="middle">S3</text>
+<rect x="385" y="442" width="90" height="56" rx="10" fill="#b7e4c7" stroke="#17324d" stroke-width="3"/>
+<text x="430" y="476" class="label" text-anchor="middle">S4</text>
+<text x="325" y="202" class="label" text-anchor="middle">+V</text>
+<text x="325" y="542" class="label" text-anchor="middle">GND</text>
+<polyline points="220,258 220,350 275,350" class="wire" stroke="#17324d" stroke-width="5"/>
+<polyline points="430,258 430,350 375,350" class="wire" stroke="#17324d" stroke-width="5"/>
+<polyline points="220,442 220,370 275,370" class="wire" stroke="#17324d" stroke-width="5"/>
+<polyline points="430,442 430,370 375,370" class="wire" stroke="#17324d" stroke-width="5"/>
+<rect x="275" y="322" width="100" height="76" rx="12" fill="#d9e4ea" stroke="#17324d" stroke-width="3"/>
+<text x="325" y="366" class="label" text-anchor="middle">MOTOR</text>
+<polyline points="220,258 275,350 375,350 430,442" class="wire" stroke="#2e9d55" stroke-width="7" marker-end="url(#arrow)"/>
+<rect x="650" y="105" width="500" height="505" rx="20" fill="#ffffff" stroke="#a8c0cc" stroke-width="3"/>
+<text x="900" y="145" class="h2" text-anchor="middle">Reverse</text>
+<rect x="750" y="202" width="90" height="56" rx="10" fill="#edf2f7" stroke="#17324d" stroke-width="3"/>
+<text x="795" y="236" class="label" text-anchor="middle">S1</text>
+<rect x="960" y="202" width="90" height="56" rx="10" fill="#b7e4c7" stroke="#17324d" stroke-width="3"/>
+<text x="1005" y="236" class="label" text-anchor="middle">S2</text>
+<rect x="750" y="442" width="90" height="56" rx="10" fill="#b7e4c7" stroke="#17324d" stroke-width="3"/>
+<text x="795" y="476" class="label" text-anchor="middle">S3</text>
+<rect x="960" y="442" width="90" height="56" rx="10" fill="#edf2f7" stroke="#17324d" stroke-width="3"/>
+<text x="1005" y="476" class="label" text-anchor="middle">S4</text>
+<text x="900" y="202" class="label" text-anchor="middle">+V</text>
+<text x="900" y="542" class="label" text-anchor="middle">GND</text>
+<polyline points="795,258 795,350 850,350" class="wire" stroke="#17324d" stroke-width="5"/>
+<polyline points="1005,258 1005,350 950,350" class="wire" stroke="#17324d" stroke-width="5"/>
+<polyline points="795,442 795,370 850,370" class="wire" stroke="#17324d" stroke-width="5"/>
+<polyline points="1005,442 1005,370 950,370" class="wire" stroke="#17324d" stroke-width="5"/>
+<rect x="850" y="322" width="100" height="76" rx="12" fill="#d9e4ea" stroke="#17324d" stroke-width="3"/>
+<text x="900" y="366" class="label" text-anchor="middle">MOTOR</text>
+<polyline points="1005,258 950,350 850,350 795,442" class="wire" stroke="#ef7d19" stroke-width="7" marker-end="url(#arrow)"/>
+  <text x="48" y="694" class="small">Never turn on both high and low switches on the same side at the same time.</text>
+</svg>

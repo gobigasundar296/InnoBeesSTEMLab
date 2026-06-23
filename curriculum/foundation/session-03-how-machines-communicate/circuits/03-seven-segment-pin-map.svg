@@ -1,0 +1,109 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="720" viewBox="0 0 1200 720" role="img" aria-labelledby="title desc">
+  <title id="title">7-Segment Display Pin Mapping</title>
+  <desc id="desc">Segments a through g connect to Arduino pins D2 through D8 through current-limiting resistors.</desc>
+  <rect width="1200" height="720" fill="#f7fbfd"/>
+  <defs>
+    <marker id="arrow" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto" markerUnits="strokeWidth">
+      <path d="M2,2 L10,6 L2,10 Z" fill="#17324d"/>
+    </marker>
+  </defs>
+  <style>
+    .title { font: 700 30px Arial, sans-serif; fill: #17324d; }
+    .h2 { font: 700 21px Arial, sans-serif; fill: #17324d; }
+    .label { font: 600 17px Arial, sans-serif; fill: #17324d; }
+    .small { font: 15px Arial, sans-serif; fill: #526d82; }
+    .tiny { font: 12px Arial, sans-serif; fill: #526d82; }
+    .mono { font: 600 14px Consolas, monospace; fill: #17324d; }
+    .panel { fill: #ffffff; stroke: #a8c0cc; stroke-width: 3; }
+    .wire { fill: none; stroke-width: 6; stroke-linecap: round; stroke-linejoin: round; }
+  </style>
+  <text x="48" y="48" class="title">7-Segment Display Pin Mapping</text>
+<rect x="60" y="105" width="430" height="520" rx="20" fill="#ffffff" stroke="#a8c0cc" stroke-width="3"/>
+<text x="275" y="145" class="h2" text-anchor="middle">Display segment labels</text>
+<rect x="188" y="205" width="174" height="12" rx="6" fill="#e53935" stroke="#17324d" stroke-width="2"/>
+<text x="275.0" y="216.0" class="tiny" text-anchor="middle">a</text>
+<rect x="366" y="221" width="12" height="131.0" rx="6" fill="#e53935" stroke="#17324d" stroke-width="2"/>
+<text x="372.0" y="291.5" class="tiny" text-anchor="middle">b</text>
+<rect x="366" y="368.0" width="12" height="131.0" rx="6" fill="#e53935" stroke="#17324d" stroke-width="2"/>
+<text x="372.0" y="438.5" class="tiny" text-anchor="middle">c</text>
+<rect x="188" y="503" width="174" height="12" rx="6" fill="#e53935" stroke="#17324d" stroke-width="2"/>
+<text x="275.0" y="514.0" class="tiny" text-anchor="middle">d</text>
+<rect x="172" y="368.0" width="12" height="131.0" rx="6" fill="#e53935" stroke="#17324d" stroke-width="2"/>
+<text x="178.0" y="438.5" class="tiny" text-anchor="middle">e</text>
+<rect x="172" y="221" width="12" height="131.0" rx="6" fill="#e53935" stroke="#17324d" stroke-width="2"/>
+<text x="178.0" y="291.5" class="tiny" text-anchor="middle">f</text>
+<rect x="188" y="354.0" width="174" height="12" rx="6" fill="#e53935" stroke="#17324d" stroke-width="2"/>
+<text x="275.0" y="365.0" class="tiny" text-anchor="middle">g</text>
+<text x="275" y="565" class="label" text-anchor="middle">Common cathode -&gt; GND</text>
+<rect x="545" y="105" width="595" height="520" rx="20" fill="#ffffff" stroke="#a8c0cc" stroke-width="3"/>
+<text x="842" y="145" class="h2" text-anchor="middle">Arduino wiring table</text>
+<circle cx="620" cy="199" r="12" fill="#e53935" stroke="#17324d" stroke-width="2"/>
+<text x="650" y="205" class="label" text-anchor="start">Segment a</text>
+
+  <line x1="768" y1="199" x2="810" y2="199" stroke="#17324d" stroke-width="4"/>
+  <rect x="810" y="183" width="112" height="32" rx="8" fill="#f2dda1" stroke="#795f22" stroke-width="3"/>
+  <line x1="922" y1="199" x2="964" y2="199" stroke="#17324d" stroke-width="4"/>
+  <text x="866" y="174" class="tiny" text-anchor="middle">330 ohm</text>
+
+<text x="1010" y="205" class="label" text-anchor="start">Arduino D2</text>
+<circle cx="620" cy="244" r="12" fill="#e53935" stroke="#17324d" stroke-width="2"/>
+<text x="650" y="250" class="label" text-anchor="start">Segment b</text>
+
+  <line x1="768" y1="244" x2="810" y2="244" stroke="#17324d" stroke-width="4"/>
+  <rect x="810" y="228" width="112" height="32" rx="8" fill="#f2dda1" stroke="#795f22" stroke-width="3"/>
+  <line x1="922" y1="244" x2="964" y2="244" stroke="#17324d" stroke-width="4"/>
+  <text x="866" y="219" class="tiny" text-anchor="middle">330 ohm</text>
+
+<text x="1010" y="250" class="label" text-anchor="start">Arduino D3</text>
+<circle cx="620" cy="289" r="12" fill="#e53935" stroke="#17324d" stroke-width="2"/>
+<text x="650" y="295" class="label" text-anchor="start">Segment c</text>
+
+  <line x1="768" y1="289" x2="810" y2="289" stroke="#17324d" stroke-width="4"/>
+  <rect x="810" y="273" width="112" height="32" rx="8" fill="#f2dda1" stroke="#795f22" stroke-width="3"/>
+  <line x1="922" y1="289" x2="964" y2="289" stroke="#17324d" stroke-width="4"/>
+  <text x="866" y="264" class="tiny" text-anchor="middle">330 ohm</text>
+
+<text x="1010" y="295" class="label" text-anchor="start">Arduino D4</text>
+<circle cx="620" cy="334" r="12" fill="#e53935" stroke="#17324d" stroke-width="2"/>
+<text x="650" y="340" class="label" text-anchor="start">Segment d</text>
+
+  <line x1="768" y1="334" x2="810" y2="334" stroke="#17324d" stroke-width="4"/>
+  <rect x="810" y="318" width="112" height="32" rx="8" fill="#f2dda1" stroke="#795f22" stroke-width="3"/>
+  <line x1="922" y1="334" x2="964" y2="334" stroke="#17324d" stroke-width="4"/>
+  <text x="866" y="309" class="tiny" text-anchor="middle">330 ohm</text>
+
+<text x="1010" y="340" class="label" text-anchor="start">Arduino D5</text>
+<circle cx="620" cy="379" r="12" fill="#e53935" stroke="#17324d" stroke-width="2"/>
+<text x="650" y="385" class="label" text-anchor="start">Segment e</text>
+
+  <line x1="768" y1="379" x2="810" y2="379" stroke="#17324d" stroke-width="4"/>
+  <rect x="810" y="363" width="112" height="32" rx="8" fill="#f2dda1" stroke="#795f22" stroke-width="3"/>
+  <line x1="922" y1="379" x2="964" y2="379" stroke="#17324d" stroke-width="4"/>
+  <text x="866" y="354" class="tiny" text-anchor="middle">330 ohm</text>
+
+<text x="1010" y="385" class="label" text-anchor="start">Arduino D6</text>
+<circle cx="620" cy="424" r="12" fill="#e53935" stroke="#17324d" stroke-width="2"/>
+<text x="650" y="430" class="label" text-anchor="start">Segment f</text>
+
+  <line x1="768" y1="424" x2="810" y2="424" stroke="#17324d" stroke-width="4"/>
+  <rect x="810" y="408" width="112" height="32" rx="8" fill="#f2dda1" stroke="#795f22" stroke-width="3"/>
+  <line x1="922" y1="424" x2="964" y2="424" stroke="#17324d" stroke-width="4"/>
+  <text x="866" y="399" class="tiny" text-anchor="middle">330 ohm</text>
+
+<text x="1010" y="430" class="label" text-anchor="start">Arduino D7</text>
+<circle cx="620" cy="469" r="12" fill="#e53935" stroke="#17324d" stroke-width="2"/>
+<text x="650" y="475" class="label" text-anchor="start">Segment g</text>
+
+  <line x1="768" y1="469" x2="810" y2="469" stroke="#17324d" stroke-width="4"/>
+  <rect x="810" y="453" width="112" height="32" rx="8" fill="#f2dda1" stroke="#795f22" stroke-width="3"/>
+  <line x1="922" y1="469" x2="964" y2="469" stroke="#17324d" stroke-width="4"/>
+  <text x="866" y="444" class="tiny" text-anchor="middle">330 ohm</text>
+
+<text x="1010" y="475" class="label" text-anchor="start">Arduino D8</text>
+<rect x="610" y="545" width="460" height="96" rx="16" fill="#ffffff" stroke="#a8c0cc" stroke-width="3"/>
+<text x="628" y="575" class="h2" text-anchor="start">Display rules</text>
+<text x="630" y="607" class="small" text-anchor="start">Each segment is one LED</text>
+<text x="630" y="632" class="small" text-anchor="start">Use one resistor per segment</text>
+<text x="630" y="657" class="small" text-anchor="start">Common cathode display sinks to GND</text>
+  <text x="48" y="694" class="small">Pins match arduino/03_seven_segment_counter.</text>
+</svg>
